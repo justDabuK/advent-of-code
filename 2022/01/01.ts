@@ -37,7 +37,7 @@ function findTopThreeCaloriesSum(elfCaloryList: number[]) {
     return sum
 }
 
-const elfCalories = readFiles('./2022/01/test-input.txt');
+const elfCalories = readFiles('./2022/01/input.txt');
 const highestCalories = findHighestCalories(elfCalories);
 console.log(`Highest calories: ${highestCalories}`)
 const threeHighestCombined = findTopThreeCaloriesSum(elfCalories);
