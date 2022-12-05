@@ -21,17 +21,18 @@ function getData(fileName: string): CleanupCrew[] {
         } else {
             const extractCleanupSectionRegex = /(\d+)-(\d+),(\d+)-(\d+)/
             const regexMatches = extractCleanupSectionRegex.exec(trimmedLine)!
-                const cleanupCrew: CleanupCrew = {
-                    firstElf: {
-                        start: parseInt(regexMatches[1]),
-                        end: parseInt(regexMatches[2]),
-                    },
-                    secondElf: {
-                        start: parseInt(regexMatches[3]),
-                        end: parseInt(regexMatches[4]),
-                    }
-                };
-                cleanupCrewList.push(cleanupCrew);
+            console.log(regexMatches);
+            const cleanupCrew: CleanupCrew = {
+                firstElf: {
+                    start: parseInt(regexMatches[1]),
+                    end: parseInt(regexMatches[2]),
+                },
+                secondElf: {
+                    start: parseInt(regexMatches[3]),
+                    end: parseInt(regexMatches[4]),
+                }
+            };
+            cleanupCrewList.push(cleanupCrew);
             }
     })
 
@@ -76,4 +77,4 @@ function part2() {
 
 }
 
-part2();
+part1();
