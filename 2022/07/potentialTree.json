@@ -1,0 +1,2659 @@
+{
+  "root": {
+    "name": "/",
+    "parentDirectory": "",
+    "path": "",
+    "fileList": [
+      {
+        "name": "cmnwnpwb",
+        "size": 150961
+      },
+      {
+        "name": "hhcp.jzd",
+        "size": 28669
+      },
+      {
+        "name": "lfrctthp.tlv",
+        "size": 133395
+      },
+      {
+        "name": "wbs.vmh",
+        "size": 256180
+      },
+      {
+        "name": "zsntdzf",
+        "size": 257693
+      }
+    ],
+    "subDirectories": [
+      {
+        "name": "jssbn",
+        "parentDirectory": "/",
+        "path": "/jssbn",
+        "fileList": [
+          {
+            "name": "dvlb",
+            "size": 89372
+          },
+          {
+            "name": "sppmmj",
+            "size": 203148
+          },
+          {
+            "name": "sppmmj.bmm",
+            "size": 130200
+          },
+          {
+            "name": "vsbvlr",
+            "size": 248929
+          }
+        ],
+        "subDirectories": [
+          {
+            "name": "lfrctthp",
+            "parentDirectory": "jssbn",
+            "path": "/jssbn/lfrctthp",
+            "subDirectories": [
+              {
+                "name": "lfrctthp",
+                "parentDirectory": "lfrctthp",
+                "path": "/jssbn/lfrctthp/lfrctthp",
+                "fileList": [
+                  {
+                    "name": "gsb.flc",
+                    "size": 25083
+                  }
+                ]
+              },
+              {
+                "name": "srf",
+                "parentDirectory": "lfrctthp",
+                "path": "/jssbn/lfrctthp/srf",
+                "fileList": [
+                  {
+                    "name": "hcnjd.nsq",
+                    "size": 20386
+                  },
+                  {
+                    "name": "jjlz.mtq",
+                    "size": 143480
+                  },
+                  {
+                    "name": "sbmhf",
+                    "size": 88782
+                  },
+                  {
+                    "name": "wbs.vmh",
+                    "size": 143464
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "rwvdvvsf",
+                    "parentDirectory": "srf",
+                    "path": "/jssbn/lfrctthp/srf/rwvdvvsf",
+                    "fileList": [
+                      {
+                        "name": "bqz",
+                        "size": 20009
+                      },
+                      {
+                        "name": "czdm",
+                        "size": 133188
+                      }
+                    ]
+                  },
+                  {
+                    "name": "wvhhr",
+                    "parentDirectory": "srf",
+                    "path": "/jssbn/lfrctthp/srf/wvhhr",
+                    "fileList": [
+                      {
+                        "name": "vrwdvnh.jhf",
+                        "size": 10445
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fileList": [
+              {
+                "name": "vlfc",
+                "size": 165285
+              },
+              {
+                "name": "wbs.vmh",
+                "size": 202701
+              }
+            ]
+          },
+          {
+            "name": "pjzpjjq",
+            "parentDirectory": "jssbn",
+            "path": "/jssbn/pjzpjjq",
+            "fileList": [
+              {
+                "name": "chgbd.zjf",
+                "size": 14329
+              },
+              {
+                "name": "pjc",
+                "size": 212284
+              },
+              {
+                "name": "rhzgmnb.nhd",
+                "size": 225566
+              },
+              {
+                "name": "sppmmj.dzz",
+                "size": 145766
+              },
+              {
+                "name": "wbs.vmh",
+                "size": 125853
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "dvlb",
+                "parentDirectory": "pjzpjjq",
+                "path": "/jssbn/pjzpjjq/dvlb",
+                "subDirectories": [
+                  {
+                    "name": "bjfqsb",
+                    "parentDirectory": "dvlb",
+                    "path": "/jssbn/pjzpjjq/dvlb/bjfqsb",
+                    "subDirectories": [
+                      {
+                        "name": "jgltcw",
+                        "parentDirectory": "bjfqsb",
+                        "path": "/jssbn/pjzpjjq/dvlb/bjfqsb/jgltcw",
+                        "fileList": [
+                          {
+                            "name": "shmqqjf.fwd",
+                            "size": 264579
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "fnwsmj",
+                    "parentDirectory": "dvlb",
+                    "path": "/jssbn/pjzpjjq/dvlb/fnwsmj",
+                    "subDirectories": [
+                      {
+                        "name": "lfrctthp",
+                        "parentDirectory": "fnwsmj",
+                        "path": "/jssbn/pjzpjjq/dvlb/fnwsmj/lfrctthp",
+                        "subDirectories": [
+                          {
+                            "name": "qdgqdtn",
+                            "parentDirectory": "lfrctthp",
+                            "path": "/jssbn/pjzpjjq/dvlb/fnwsmj/lfrctthp/qdgqdtn",
+                            "fileList": [
+                              {
+                                "name": "lbcgfp.vzq",
+                                "size": 230357
+                              }
+                            ]
+                          },
+                          {
+                            "name": "sgddcfdn",
+                            "parentDirectory": "lfrctthp",
+                            "path": "/jssbn/pjzpjjq/dvlb/fnwsmj/lfrctthp/sgddcfdn",
+                            "fileList": [
+                              {
+                                "name": "cwjbzd.npb",
+                                "size": 110212
+                              },
+                              {
+                                "name": "wlvdsjj",
+                                "size": 207550
+                              }
+                            ],
+                            "subDirectories": [
+                              {
+                                "name": "lnjln",
+                                "parentDirectory": "sgddcfdn",
+                                "path": "/jssbn/pjzpjjq/dvlb/fnwsmj/lfrctthp/sgddcfdn/lnjln",
+                                "fileList": [
+                                  {
+                                    "name": "tdw",
+                                    "size": 28970
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "fileList": [
+                          {
+                            "name": "qhjbh.fbc",
+                            "size": 198919
+                          }
+                        ]
+                      },
+                      {
+                        "name": "rddpmj",
+                        "parentDirectory": "fnwsmj",
+                        "path": "/jssbn/pjzpjjq/dvlb/fnwsmj/rddpmj",
+                        "subDirectories": [
+                          {
+                            "name": "fhlnmw",
+                            "parentDirectory": "rddpmj",
+                            "path": "/jssbn/pjzpjjq/dvlb/fnwsmj/rddpmj/fhlnmw",
+                            "fileList": [
+                              {
+                                "name": "mcgdrzg",
+                                "size": 228871
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "wlhfvwl",
+                    "parentDirectory": "dvlb",
+                    "path": "/jssbn/pjzpjjq/dvlb/wlhfvwl",
+                    "subDirectories": [
+                      {
+                        "name": "rbwq",
+                        "parentDirectory": "wlhfvwl",
+                        "path": "/jssbn/pjzpjjq/dvlb/wlhfvwl/rbwq",
+                        "fileList": [
+                          {
+                            "name": "jdczdlwb",
+                            "size": 139444
+                          },
+                          {
+                            "name": "mnbq.sdq",
+                            "size": 66039
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "wrgqqts",
+                    "parentDirectory": "dvlb",
+                    "path": "/jssbn/pjzpjjq/dvlb/wrgqqts",
+                    "fileList": [
+                      {
+                        "name": "dvlb.cfl",
+                        "size": 124869
+                      }
+                    ]
+                  },
+                  {
+                    "name": "zhj",
+                    "parentDirectory": "dvlb",
+                    "path": "/jssbn/pjzpjjq/dvlb/zhj",
+                    "subDirectories": [
+                      {
+                        "name": "hww",
+                        "parentDirectory": "zhj",
+                        "path": "/jssbn/pjzpjjq/dvlb/zhj/hww",
+                        "fileList": [
+                          {
+                            "name": "czhd.bdn",
+                            "size": 14681
+                          },
+                          {
+                            "name": "fgcfbrs.wqt",
+                            "size": 232222
+                          },
+                          {
+                            "name": "vsw.npv",
+                            "size": 155416
+                          },
+                          {
+                            "name": "wbs.vmh",
+                            "size": 199792
+                          },
+                          {
+                            "name": "znpdrr.rmd",
+                            "size": 44877
+                          }
+                        ],
+                        "subDirectories": [
+                          {
+                            "name": "pnsbrd",
+                            "parentDirectory": "hww",
+                            "path": "/jssbn/pjzpjjq/dvlb/zhj/hww/pnsbrd",
+                            "fileList": [
+                              {
+                                "name": "vsbvlr",
+                                "size": 179442
+                              },
+                              {
+                                "name": "zbhj.wnh",
+                                "size": 55431
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "nqv",
+                        "parentDirectory": "zhj",
+                        "path": "/jssbn/pjzpjjq/dvlb/zhj/nqv",
+                        "fileList": [
+                          {
+                            "name": "hnz.czd",
+                            "size": 262693
+                          },
+                          {
+                            "name": "lptljbz",
+                            "size": 259429
+                          },
+                          {
+                            "name": "tlhttrgs.jlv",
+                            "size": 76496
+                          },
+                          {
+                            "name": "vsbvlr",
+                            "size": 260003
+                          }
+                        ],
+                        "subDirectories": [
+                          {
+                            "name": "rjgbm",
+                            "parentDirectory": "nqv",
+                            "path": "/jssbn/pjzpjjq/dvlb/zhj/nqv/rjgbm",
+                            "fileList": [
+                              {
+                                "name": "fgfh.tch",
+                                "size": 45885
+                              },
+                              {
+                                "name": "lfrctthp.fbc",
+                                "size": 42899
+                              },
+                              {
+                                "name": "nnmg.tvz",
+                                "size": 159401
+                              },
+                              {
+                                "name": "trzgtn.scg",
+                                "size": 144595
+                              }
+                            ]
+                          },
+                          {
+                            "name": "tlhttrgs",
+                            "parentDirectory": "nqv",
+                            "path": "/jssbn/pjzpjjq/dvlb/zhj/nqv/tlhttrgs",
+                            "subDirectories": [
+                              {
+                                "name": "cqtnvzn",
+                                "parentDirectory": "tlhttrgs",
+                                "path": "/jssbn/pjzpjjq/dvlb/zhj/nqv/tlhttrgs/cqtnvzn",
+                                "fileList": [
+                                  {
+                                    "name": "czdm",
+                                    "size": 49609
+                                  }
+                                ]
+                              }
+                            ],
+                            "fileList": [
+                              {
+                                "name": "wbs.vmh",
+                                "size": 220458
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "fileList": [
+                      {
+                        "name": "lqn",
+                        "size": 192363
+                      }
+                    ]
+                  }
+                ],
+                "fileList": [
+                  {
+                    "name": "gplzm",
+                    "size": 154127
+                  },
+                  {
+                    "name": "qcp.qvc",
+                    "size": 264923
+                  }
+                ]
+              },
+              {
+                "name": "qlrn",
+                "parentDirectory": "pjzpjjq",
+                "path": "/jssbn/pjzpjjq/qlrn",
+                "fileList": [
+                  {
+                    "name": "bflnzt",
+                    "size": 150270
+                  },
+                  {
+                    "name": "bgq",
+                    "size": 203988
+                  },
+                  {
+                    "name": "sppmmj",
+                    "size": 256702
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "jwgd",
+                    "parentDirectory": "qlrn",
+                    "path": "/jssbn/pjzpjjq/qlrn/jwgd",
+                    "fileList": [
+                      {
+                        "name": "lmlbtpg.wdp",
+                        "size": 57414
+                      }
+                    ]
+                  },
+                  {
+                    "name": "wbgvqpc",
+                    "parentDirectory": "qlrn",
+                    "path": "/jssbn/pjzpjjq/qlrn/wbgvqpc",
+                    "subDirectories": [
+                      {
+                        "name": "dvlb",
+                        "parentDirectory": "wbgvqpc",
+                        "path": "/jssbn/pjzpjjq/qlrn/wbgvqpc/dvlb",
+                        "fileList": [
+                          {
+                            "name": "hhcp.jzd",
+                            "size": 118388
+                          }
+                        ]
+                      },
+                      {
+                        "name": "qfhvjtv",
+                        "parentDirectory": "wbgvqpc",
+                        "path": "/jssbn/pjzpjjq/qlrn/wbgvqpc/qfhvjtv",
+                        "fileList": [
+                          {
+                            "name": "lfrctthp",
+                            "size": 82966
+                          },
+                          {
+                            "name": "wbs.vmh",
+                            "size": 139234
+                          }
+                        ],
+                        "subDirectories": [
+                          {
+                            "name": "mhbbpdpj",
+                            "parentDirectory": "qfhvjtv",
+                            "path": "/jssbn/pjzpjjq/qlrn/wbgvqpc/qfhvjtv/mhbbpdpj",
+                            "subDirectories": [
+                              {
+                                "name": "ghrbbh",
+                                "parentDirectory": "mhbbpdpj",
+                                "path": "/jssbn/pjzpjjq/qlrn/wbgvqpc/qfhvjtv/mhbbpdpj/ghrbbh",
+                                "fileList": [
+                                  {
+                                    "name": "tlhttrgs",
+                                    "size": 24686
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "tpcwhmv",
+                        "parentDirectory": "wbgvqpc",
+                        "path": "/jssbn/pjzpjjq/qlrn/wbgvqpc/tpcwhmv",
+                        "fileList": [
+                          {
+                            "name": "hhcp.jzd",
+                            "size": 3666
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "vpltwcs",
+                "parentDirectory": "pjzpjjq",
+                "path": "/jssbn/pjzpjjq/vpltwcs",
+                "subDirectories": [
+                  {
+                    "name": "tlhttrgs",
+                    "parentDirectory": "vpltwcs",
+                    "path": "/jssbn/pjzpjjq/vpltwcs/tlhttrgs",
+                    "subDirectories": [
+                      {
+                        "name": "cchd",
+                        "parentDirectory": "tlhttrgs",
+                        "path": "/jssbn/pjzpjjq/vpltwcs/tlhttrgs/cchd",
+                        "fileList": [
+                          {
+                            "name": "wmrv",
+                            "size": 126044
+                          }
+                        ]
+                      }
+                    ],
+                    "fileList": [
+                      {
+                        "name": "cvbr.rmh",
+                        "size": 32682
+                      },
+                      {
+                        "name": "mpdpnb",
+                        "size": 209102
+                      },
+                      {
+                        "name": "wbs.vmh",
+                        "size": 96179
+                      }
+                    ]
+                  }
+                ],
+                "fileList": [
+                  {
+                    "name": "vsbvlr",
+                    "size": 146745
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "rbtbtt",
+            "parentDirectory": "jssbn",
+            "path": "/jssbn/rbtbtt",
+            "fileList": [
+              {
+                "name": "hzgdsb.tbs",
+                "size": 169793
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "wqmvzg",
+                "parentDirectory": "rbtbtt",
+                "path": "/jssbn/rbtbtt/wqmvzg",
+                "subDirectories": [
+                  {
+                    "name": "lzbj",
+                    "parentDirectory": "wqmvzg",
+                    "path": "/jssbn/rbtbtt/wqmvzg/lzbj",
+                    "subDirectories": [
+                      {
+                        "name": "tnhdmqjh",
+                        "parentDirectory": "lzbj",
+                        "path": "/jssbn/rbtbtt/wqmvzg/lzbj/tnhdmqjh",
+                        "fileList": [
+                          {
+                            "name": "lfrctthp",
+                            "size": 5150
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tlhttrgs",
+            "parentDirectory": "jssbn",
+            "path": "/jssbn/tlhttrgs",
+            "subDirectories": [
+              {
+                "name": "zjghthcb",
+                "parentDirectory": "tlhttrgs",
+                "path": "/jssbn/tlhttrgs/zjghthcb",
+                "subDirectories": [
+                  {
+                    "name": "dvlb",
+                    "parentDirectory": "zjghthcb",
+                    "path": "/jssbn/tlhttrgs/zjghthcb/dvlb",
+                    "fileList": [
+                      {
+                        "name": "dvlb.fhs",
+                        "size": 167639
+                      },
+                      {
+                        "name": "qnhgn.mgn",
+                        "size": 70305
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ghzsqrn",
+                    "parentDirectory": "zjghthcb",
+                    "path": "/jssbn/tlhttrgs/zjghthcb/ghzsqrn",
+                    "fileList": [
+                      {
+                        "name": "dbrtz.lrn",
+                        "size": 74556
+                      },
+                      {
+                        "name": "mrfjpgwj",
+                        "size": 220711
+                      },
+                      {
+                        "name": "tlhttrgs.thf",
+                        "size": 67424
+                      },
+                      {
+                        "name": "vsngvn.ttq",
+                        "size": 202325
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "fngzpjm",
+                        "parentDirectory": "ghzsqrn",
+                        "path": "/jssbn/tlhttrgs/zjghthcb/ghzsqrn/fngzpjm",
+                        "subDirectories": [
+                          {
+                            "name": "dvlb",
+                            "parentDirectory": "fngzpjm",
+                            "path": "/jssbn/tlhttrgs/zjghthcb/ghzsqrn/fngzpjm/dvlb",
+                            "fileList": [
+                              {
+                                "name": "bmvzg",
+                                "size": 59824
+                              },
+                              {
+                                "name": "lfrctthp",
+                                "size": 184952
+                              },
+                              {
+                                "name": "qwcttnh.pbs",
+                                "size": 51434
+                              },
+                              {
+                                "name": "wbs.vmh",
+                                "size": 206348
+                              }
+                            ]
+                          },
+                          {
+                            "name": "ghzwdw",
+                            "parentDirectory": "fngzpjm",
+                            "path": "/jssbn/tlhttrgs/zjghthcb/ghzsqrn/fngzpjm/ghzwdw",
+                            "fileList": [
+                              {
+                                "name": "lfrctthp",
+                                "size": 132594
+                              },
+                              {
+                                "name": "tlhttrgs.cvp",
+                                "size": 99032
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "mdqbvhrr",
+                        "parentDirectory": "ghzsqrn",
+                        "path": "/jssbn/tlhttrgs/zjghthcb/ghzsqrn/mdqbvhrr",
+                        "fileList": [
+                          {
+                            "name": "zsfv.qqv",
+                            "size": 32598
+                          }
+                        ]
+                      },
+                      {
+                        "name": "sfhqmzhd",
+                        "parentDirectory": "ghzsqrn",
+                        "path": "/jssbn/tlhttrgs/zjghthcb/ghzsqrn/sfhqmzhd",
+                        "fileList": [
+                          {
+                            "name": "wpmbm",
+                            "size": 58893
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "hvwjc",
+                    "parentDirectory": "zjghthcb",
+                    "path": "/jssbn/tlhttrgs/zjghthcb/hvwjc",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 233454
+                      },
+                      {
+                        "name": "lfrctthp",
+                        "size": 72232
+                      },
+                      {
+                        "name": "ptrlpt.gdf",
+                        "size": 248368
+                      },
+                      {
+                        "name": "qgjv",
+                        "size": 222059
+                      },
+                      {
+                        "name": "wbs.vmh",
+                        "size": 69105
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "nchvqtdq",
+                        "parentDirectory": "hvwjc",
+                        "path": "/jssbn/tlhttrgs/zjghthcb/hvwjc/nchvqtdq",
+                        "fileList": [
+                          {
+                            "name": "gjwjq.jrc",
+                            "size": 49931
+                          }
+                        ]
+                      },
+                      {
+                        "name": "wnj",
+                        "parentDirectory": "hvwjc",
+                        "path": "/jssbn/tlhttrgs/zjghthcb/hvwjc/wnj",
+                        "fileList": [
+                          {
+                            "name": "ccpnsjm.cwc",
+                            "size": 182139
+                          },
+                          {
+                            "name": "hhcp.jzd",
+                            "size": 72806
+                          },
+                          {
+                            "name": "sppmmj",
+                            "size": 156378
+                          }
+                        ],
+                        "subDirectories": [
+                          {
+                            "name": "dvlb",
+                            "parentDirectory": "wnj",
+                            "path": "/jssbn/tlhttrgs/zjghthcb/hvwjc/wnj/dvlb",
+                            "subDirectories": [
+                              {
+                                "name": "cwjbzd",
+                                "parentDirectory": "dvlb",
+                                "path": "/jssbn/tlhttrgs/zjghthcb/hvwjc/wnj/dvlb/cwjbzd",
+                                "subDirectories": [
+                                  {
+                                    "name": "tlhttrgs",
+                                    "parentDirectory": "cwjbzd",
+                                    "path": "/jssbn/tlhttrgs/zjghthcb/hvwjc/wnj/dvlb/cwjbzd/tlhttrgs",
+                                    "fileList": [
+                                      {
+                                        "name": "vdp.wzt",
+                                        "size": 240264
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lfrctthp",
+                    "parentDirectory": "zjghthcb",
+                    "path": "/jssbn/tlhttrgs/zjghthcb/lfrctthp",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 168164
+                      },
+                      {
+                        "name": "dcmfjn",
+                        "size": 68428
+                      },
+                      {
+                        "name": "dvlb",
+                        "size": 133121
+                      },
+                      {
+                        "name": "sppmmj.zjm",
+                        "size": 146217
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "thgh",
+                        "parentDirectory": "lfrctthp",
+                        "path": "/jssbn/tlhttrgs/zjghthcb/lfrctthp/thgh",
+                        "subDirectories": [
+                          {
+                            "name": "nrntbh",
+                            "parentDirectory": "thgh",
+                            "path": "/jssbn/tlhttrgs/zjghthcb/lfrctthp/thgh/nrntbh",
+                            "fileList": [
+                              {
+                                "name": "lfrctthp.brp",
+                                "size": 139964
+                              }
+                            ]
+                          },
+                          {
+                            "name": "qlhbf",
+                            "parentDirectory": "thgh",
+                            "path": "/jssbn/tlhttrgs/zjghthcb/lfrctthp/thgh/qlhbf",
+                            "fileList": [
+                              {
+                                "name": "vsbvlr",
+                                "size": 115891
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "zzffz",
+                        "parentDirectory": "lfrctthp",
+                        "path": "/jssbn/tlhttrgs/zjghthcb/lfrctthp/zzffz",
+                        "fileList": [
+                          {
+                            "name": "tlhttrgs.hsw",
+                            "size": 170513
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "zmlpwlm",
+                "parentDirectory": "tlhttrgs",
+                "path": "/jssbn/tlhttrgs/zmlpwlm",
+                "fileList": [
+                  {
+                    "name": "wvjrtvps.hrb",
+                    "size": 232644
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "lfrctthp",
+        "parentDirectory": "/",
+        "path": "/lfrctthp",
+        "subDirectories": [
+          {
+            "name": "cwjbzd",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/cwjbzd",
+            "fileList": [
+              {
+                "name": "ccpnsjm.cwc",
+                "size": 172122
+              },
+              {
+                "name": "lfrctthp.cms",
+                "size": 123102
+              },
+              {
+                "name": "lqhjcbms",
+                "size": 73991
+              },
+              {
+                "name": "mcnwp",
+                "size": 207693
+              },
+              {
+                "name": "tzrrgl",
+                "size": 114128
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "dfqpqqw",
+                "parentDirectory": "cwjbzd",
+                "path": "/lfrctthp/cwjbzd/dfqpqqw",
+                "fileList": [
+                  {
+                    "name": "dgssm.crl",
+                    "size": 67239
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "rjm",
+                    "parentDirectory": "dfqpqqw",
+                    "path": "/lfrctthp/cwjbzd/dfqpqqw/rjm",
+                    "fileList": [
+                      {
+                        "name": "nnwdzf",
+                        "size": 25830
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "lfrctthp",
+                "parentDirectory": "cwjbzd",
+                "path": "/lfrctthp/cwjbzd/lfrctthp",
+                "subDirectories": [
+                  {
+                    "name": "fqswn",
+                    "parentDirectory": "lfrctthp",
+                    "path": "/lfrctthp/cwjbzd/lfrctthp/fqswn",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 76154
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "dhgghnm",
+                        "parentDirectory": "fqswn",
+                        "path": "/lfrctthp/cwjbzd/lfrctthp/fqswn/dhgghnm",
+                        "fileList": [
+                          {
+                            "name": "jbmlssv.ndp",
+                            "size": 36757
+                          }
+                        ],
+                        "subDirectories": [
+                          {
+                            "name": "sppmmj",
+                            "parentDirectory": "dhgghnm",
+                            "path": "/lfrctthp/cwjbzd/lfrctthp/fqswn/dhgghnm/sppmmj",
+                            "subDirectories": [
+                              {
+                                "name": "dsss",
+                                "parentDirectory": "sppmmj",
+                                "path": "/lfrctthp/cwjbzd/lfrctthp/fqswn/dhgghnm/sppmmj/dsss",
+                                "fileList": [
+                                  {
+                                    "name": "vsbvlr",
+                                    "size": 201519
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "vpbwj",
+                        "parentDirectory": "fqswn",
+                        "path": "/lfrctthp/cwjbzd/lfrctthp/fqswn/vpbwj",
+                        "fileList": [
+                          {
+                            "name": "ccpnsjm.cwc",
+                            "size": 154042
+                          },
+                          {
+                            "name": "vsbvlr",
+                            "size": 271666
+                          }
+                        ],
+                        "subDirectories": [
+                          {
+                            "name": "tlhttrgs",
+                            "parentDirectory": "vpbwj",
+                            "path": "/lfrctthp/cwjbzd/lfrctthp/fqswn/vpbwj/tlhttrgs",
+                            "fileList": [
+                              {
+                                "name": "cwjbzd.lqr",
+                                "size": 125785
+                              },
+                              {
+                                "name": "jdcm.mrz",
+                                "size": 19315
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "fileList": [
+                  {
+                    "name": "jllwj.wjc",
+                    "size": 241343
+                  }
+                ]
+              },
+              {
+                "name": "sppmmj",
+                "parentDirectory": "cwjbzd",
+                "path": "/lfrctthp/cwjbzd/sppmmj",
+                "subDirectories": [
+                  {
+                    "name": "sppmmj",
+                    "parentDirectory": "sppmmj",
+                    "path": "/lfrctthp/cwjbzd/sppmmj/sppmmj",
+                    "fileList": [
+                      {
+                        "name": "fwh.wtt",
+                        "size": 161387
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "dvlb",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/dvlb",
+            "subDirectories": [
+              {
+                "name": "dnqvhtr",
+                "parentDirectory": "dvlb",
+                "path": "/lfrctthp/dvlb/dnqvhtr",
+                "subDirectories": [
+                  {
+                    "name": "jzm",
+                    "parentDirectory": "dnqvhtr",
+                    "path": "/lfrctthp/dvlb/dnqvhtr/jzm",
+                    "fileList": [
+                      {
+                        "name": "sgsbj.qtr",
+                        "size": 143413
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "smtpdcpf",
+                        "parentDirectory": "jzm",
+                        "path": "/lfrctthp/dvlb/dnqvhtr/jzm/smtpdcpf",
+                        "fileList": [
+                          {
+                            "name": "lgzlj",
+                            "size": 95947
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "phcfgqfs",
+                    "parentDirectory": "dnqvhtr",
+                    "path": "/lfrctthp/dvlb/dnqvhtr/phcfgqfs",
+                    "fileList": [
+                      {
+                        "name": "hhcp.jzd",
+                        "size": 257801
+                      }
+                    ]
+                  },
+                  {
+                    "name": "sppmmj",
+                    "parentDirectory": "dnqvhtr",
+                    "path": "/lfrctthp/dvlb/dnqvhtr/sppmmj",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 230280
+                      },
+                      {
+                        "name": "hhcp.jzd",
+                        "size": 261954
+                      },
+                      {
+                        "name": "vsbvlr",
+                        "size": 70788
+                      },
+                      {
+                        "name": "wbs.vmh",
+                        "size": 114344
+                      },
+                      {
+                        "name": "wjnf.wrv",
+                        "size": 225265
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "hmcn",
+                        "parentDirectory": "sppmmj",
+                        "path": "/lfrctthp/dvlb/dnqvhtr/sppmmj/hmcn",
+                        "fileList": [
+                          {
+                            "name": "dvlb",
+                            "size": 206476
+                          },
+                          {
+                            "name": "lfrctthp",
+                            "size": 214973
+                          }
+                        ]
+                      },
+                      {
+                        "name": "mrhsrrm",
+                        "parentDirectory": "sppmmj",
+                        "path": "/lfrctthp/dvlb/dnqvhtr/sppmmj/mrhsrrm",
+                        "fileList": [
+                          {
+                            "name": "wbs.vmh",
+                            "size": 126589
+                          }
+                        ]
+                      },
+                      {
+                        "name": "nlqmghj",
+                        "parentDirectory": "sppmmj",
+                        "path": "/lfrctthp/dvlb/dnqvhtr/sppmmj/nlqmghj",
+                        "fileList": [
+                          {
+                            "name": "mdqvh.flp",
+                            "size": 113621
+                          }
+                        ]
+                      },
+                      {
+                        "name": "rqbtcvfw",
+                        "parentDirectory": "sppmmj",
+                        "path": "/lfrctthp/dvlb/dnqvhtr/sppmmj/rqbtcvfw",
+                        "fileList": [
+                          {
+                            "name": "wbs.vmh",
+                            "size": 259673
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "vhrst",
+                    "parentDirectory": "dnqvhtr",
+                    "path": "/lfrctthp/dvlb/dnqvhtr/vhrst",
+                    "fileList": [
+                      {
+                        "name": "sppmmj",
+                        "size": 102273
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "jqpzj",
+                "parentDirectory": "dvlb",
+                "path": "/lfrctthp/dvlb/jqpzj",
+                "fileList": [
+                  {
+                    "name": "vwls.wjz",
+                    "size": 7675
+                  }
+                ]
+              },
+              {
+                "name": "jvvsgbl",
+                "parentDirectory": "dvlb",
+                "path": "/lfrctthp/dvlb/jvvsgbl",
+                "fileList": [
+                  {
+                    "name": "bgjgtfbv.wcf",
+                    "size": 217539
+                  },
+                  {
+                    "name": "wbs.vmh",
+                    "size": 59720
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "fbvls",
+                    "parentDirectory": "jvvsgbl",
+                    "path": "/lfrctthp/dvlb/jvvsgbl/fbvls",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 146823
+                      }
+                    ]
+                  },
+                  {
+                    "name": "gtwrhhd",
+                    "parentDirectory": "jvvsgbl",
+                    "path": "/lfrctthp/dvlb/jvvsgbl/gtwrhhd",
+                    "fileList": [
+                      {
+                        "name": "wbs.vmh",
+                        "size": 59762
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tlhttrgs",
+                    "parentDirectory": "jvvsgbl",
+                    "path": "/lfrctthp/dvlb/jvvsgbl/tlhttrgs",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 7093
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "dvlb",
+                        "parentDirectory": "tlhttrgs",
+                        "path": "/lfrctthp/dvlb/jvvsgbl/tlhttrgs/dvlb",
+                        "fileList": [
+                          {
+                            "name": "trww",
+                            "size": 62683
+                          }
+                        ]
+                      },
+                      {
+                        "name": "hjclnb",
+                        "parentDirectory": "tlhttrgs",
+                        "path": "/lfrctthp/dvlb/jvvsgbl/tlhttrgs/hjclnb",
+                        "fileList": [
+                          {
+                            "name": "bcnlmstj.bsj",
+                            "size": 245444
+                          },
+                          {
+                            "name": "czdm",
+                            "size": 167166
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "tlhttrgs",
+                "parentDirectory": "dvlb",
+                "path": "/lfrctthp/dvlb/tlhttrgs",
+                "fileList": [
+                  {
+                    "name": "czdm",
+                    "size": 53060
+                  },
+                  {
+                    "name": "hzwn",
+                    "size": 217177
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "lwqdqm",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/lwqdqm",
+            "subDirectories": [
+              {
+                "name": "bdgnmf",
+                "parentDirectory": "lwqdqm",
+                "path": "/lfrctthp/lwqdqm/bdgnmf",
+                "fileList": [
+                  {
+                    "name": "wbs.vmh",
+                    "size": 146880
+                  }
+                ]
+              },
+              {
+                "name": "dvlb",
+                "parentDirectory": "lwqdqm",
+                "path": "/lfrctthp/lwqdqm/dvlb",
+                "fileList": [
+                  {
+                    "name": "vsbvlr",
+                    "size": 184438
+                  }
+                ]
+              }
+            ],
+            "fileList": [
+              {
+                "name": "vsbvlr",
+                "size": 89596
+              }
+            ]
+          },
+          {
+            "name": "mpb",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/mpb",
+            "subDirectories": [
+              {
+                "name": "dvlb",
+                "parentDirectory": "mpb",
+                "path": "/lfrctthp/mpb/dvlb",
+                "subDirectories": [
+                  {
+                    "name": "prqfqf",
+                    "parentDirectory": "dvlb",
+                    "path": "/lfrctthp/mpb/dvlb/prqfqf",
+                    "subDirectories": [
+                      {
+                        "name": "ltmjppj",
+                        "parentDirectory": "prqfqf",
+                        "path": "/lfrctthp/mpb/dvlb/prqfqf/ltmjppj",
+                        "fileList": [
+                          {
+                            "name": "bjgzsq.srr",
+                            "size": 241963
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ndn",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/ndn",
+            "fileList": [
+              {
+                "name": "cnv.vtn",
+                "size": 184702
+              },
+              {
+                "name": "dvlb",
+                "size": 52486
+              },
+              {
+                "name": "hswnvlq.frd",
+                "size": 52100
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "hfq",
+                "parentDirectory": "ndn",
+                "path": "/lfrctthp/ndn/hfq",
+                "subDirectories": [
+                  {
+                    "name": "bsjgglbs",
+                    "parentDirectory": "hfq",
+                    "path": "/lfrctthp/ndn/hfq/bsjgglbs",
+                    "fileList": [
+                      {
+                        "name": "czdm",
+                        "size": 121761
+                      }
+                    ]
+                  }
+                ],
+                "fileList": [
+                  {
+                    "name": "cwjbzd.sht",
+                    "size": 263904
+                  },
+                  {
+                    "name": "phpvlfw.jmm",
+                    "size": 265639
+                  },
+                  {
+                    "name": "wbs.vmh",
+                    "size": 178105
+                  },
+                  {
+                    "name": "wcq.qct",
+                    "size": 25124
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "rtpwjds",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/rtpwjds",
+            "fileList": [
+              {
+                "name": "qjvrwsfl",
+                "size": 117111
+              },
+              {
+                "name": "rwjf",
+                "size": 132235
+              },
+              {
+                "name": "wjfdgt.ldj",
+                "size": 223399
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "sdssvrst",
+                "parentDirectory": "rtpwjds",
+                "path": "/lfrctthp/rtpwjds/sdssvrst",
+                "fileList": [
+                  {
+                    "name": "ccpnsjm.cwc",
+                    "size": 114380
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "sqhvvsb",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/sqhvvsb",
+            "fileList": [
+              {
+                "name": "gjhj",
+                "size": 7812
+              },
+              {
+                "name": "hhcp.jzd",
+                "size": 239114
+              },
+              {
+                "name": "vsbvlr",
+                "size": 230777
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "ldmwm",
+                "parentDirectory": "sqhvvsb",
+                "path": "/lfrctthp/sqhvvsb/ldmwm",
+                "fileList": [
+                  {
+                    "name": "blcbqb.wpz",
+                    "size": 67855
+                  },
+                  {
+                    "name": "czdm",
+                    "size": 250365
+                  },
+                  {
+                    "name": "dvlb.mfq",
+                    "size": 249613
+                  },
+                  {
+                    "name": "tlhttrgs.wgw",
+                    "size": 95934
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "cwjbzd",
+                    "parentDirectory": "ldmwm",
+                    "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd",
+                    "fileList": [
+                      {
+                        "name": "cwjbzd.lff",
+                        "size": 147822
+                      },
+                      {
+                        "name": "hhcp.jzd",
+                        "size": 122632
+                      },
+                      {
+                        "name": "tvptb.fzl",
+                        "size": 67326
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "llcflrds",
+                        "parentDirectory": "cwjbzd",
+                        "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/llcflrds",
+                        "subDirectories": [
+                          {
+                            "name": "cngdgq",
+                            "parentDirectory": "llcflrds",
+                            "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/llcflrds/cngdgq",
+                            "fileList": [
+                              {
+                                "name": "lqqcfphg",
+                                "size": 235724
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "tlhttrgs",
+                        "parentDirectory": "cwjbzd",
+                        "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs",
+                        "subDirectories": [
+                          {
+                            "name": "cgf",
+                            "parentDirectory": "tlhttrgs",
+                            "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs/cgf",
+                            "subDirectories": [
+                              {
+                                "name": "dvlb",
+                                "parentDirectory": "cgf",
+                                "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs/cgf/dvlb",
+                                "fileList": [
+                                  {
+                                    "name": "thff",
+                                    "size": 77864
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "cwjbzd",
+                            "parentDirectory": "tlhttrgs",
+                            "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs/cwjbzd",
+                            "fileList": [
+                              {
+                                "name": "ccpnsjm.cwc",
+                                "size": 208459
+                              },
+                              {
+                                "name": "dtqglmf.zgb",
+                                "size": 17127
+                              }
+                            ]
+                          },
+                          {
+                            "name": "jvs",
+                            "parentDirectory": "tlhttrgs",
+                            "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs/jvs",
+                            "fileList": [
+                              {
+                                "name": "cwjbzd",
+                                "size": 142337
+                              }
+                            ]
+                          },
+                          {
+                            "name": "ppsmqwn",
+                            "parentDirectory": "tlhttrgs",
+                            "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs/ppsmqwn",
+                            "fileList": [
+                              {
+                                "name": "rmwh",
+                                "size": 147277
+                              }
+                            ]
+                          },
+                          {
+                            "name": "qqmtj",
+                            "parentDirectory": "tlhttrgs",
+                            "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs/qqmtj",
+                            "fileList": [
+                              {
+                                "name": "vqld.lsd",
+                                "size": 153442
+                              }
+                            ]
+                          },
+                          {
+                            "name": "qzmpwzvz",
+                            "parentDirectory": "tlhttrgs",
+                            "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs/qzmpwzvz",
+                            "fileList": [
+                              {
+                                "name": "cwjbzd.gjl",
+                                "size": 223666
+                              },
+                              {
+                                "name": "gjc",
+                                "size": 254370
+                              }
+                            ]
+                          },
+                          {
+                            "name": "zmsbqrqf",
+                            "parentDirectory": "tlhttrgs",
+                            "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/tlhttrgs/zmsbqrqf",
+                            "fileList": [
+                              {
+                                "name": "tjwclf.nzs",
+                                "size": 193665
+                              }
+                            ]
+                          }
+                        ],
+                        "fileList": [
+                          {
+                            "name": "csb.hcw",
+                            "size": 67714
+                          },
+                          {
+                            "name": "lfrctthp.qgm",
+                            "size": 119180
+                          }
+                        ]
+                      },
+                      {
+                        "name": "wtcttdzg",
+                        "parentDirectory": "cwjbzd",
+                        "path": "/lfrctthp/sqhvvsb/ldmwm/cwjbzd/wtcttdzg",
+                        "fileList": [
+                          {
+                            "name": "hhcp.jzd",
+                            "size": 52882
+                          },
+                          {
+                            "name": "hqwgl.mtb",
+                            "size": 110104
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "jdsbt",
+                    "parentDirectory": "ldmwm",
+                    "path": "/lfrctthp/sqhvvsb/ldmwm/jdsbt",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 77115
+                      },
+                      {
+                        "name": "dvlb",
+                        "size": 242705
+                      },
+                      {
+                        "name": "lfrctthp",
+                        "size": 12624
+                      },
+                      {
+                        "name": "sppmmj",
+                        "size": 145552
+                      },
+                      {
+                        "name": "vsbvlr",
+                        "size": 198997
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "vzh",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/vzh",
+            "subDirectories": [
+              {
+                "name": "ccbjg",
+                "parentDirectory": "vzh",
+                "path": "/lfrctthp/vzh/ccbjg",
+                "subDirectories": [
+                  {
+                    "name": "mcvsbd",
+                    "parentDirectory": "ccbjg",
+                    "path": "/lfrctthp/vzh/ccbjg/mcvsbd",
+                    "subDirectories": [
+                      {
+                        "name": "cwjbzd",
+                        "parentDirectory": "mcvsbd",
+                        "path": "/lfrctthp/vzh/ccbjg/mcvsbd/cwjbzd",
+                        "fileList": [
+                          {
+                            "name": "ccpnsjm.cwc",
+                            "size": 224826
+                          }
+                        ]
+                      },
+                      {
+                        "name": "rbsv",
+                        "parentDirectory": "mcvsbd",
+                        "path": "/lfrctthp/vzh/ccbjg/mcvsbd/rbsv",
+                        "fileList": [
+                          {
+                            "name": "lfrctthp",
+                            "size": 164816
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "sppmmj",
+                    "parentDirectory": "ccbjg",
+                    "path": "/lfrctthp/vzh/ccbjg/sppmmj",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 85264
+                      },
+                      {
+                        "name": "dvlb.qgj",
+                        "size": 104511
+                      },
+                      {
+                        "name": "lfrctthp.zdn",
+                        "size": 183533
+                      },
+                      {
+                        "name": "wbs.vmh",
+                        "size": 98525
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fileList": [
+              {
+                "name": "czdm",
+                "size": 91733
+              },
+              {
+                "name": "dvlb",
+                "size": 89195
+              },
+              {
+                "name": "rvfpbl.rtq",
+                "size": 212167
+              },
+              {
+                "name": "tlhttrgs.djt",
+                "size": 224909
+              },
+              {
+                "name": "vpznzhs.dcd",
+                "size": 72916
+              }
+            ]
+          },
+          {
+            "name": "zzvnq",
+            "parentDirectory": "lfrctthp",
+            "path": "/lfrctthp/zzvnq",
+            "fileList": [
+              {
+                "name": "lfrctthp",
+                "size": 107390
+              },
+              {
+                "name": "prnjh.sgb",
+                "size": 143496
+              },
+              {
+                "name": "zhnh.mpl",
+                "size": 118674
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "lznpqbrd",
+                "parentDirectory": "zzvnq",
+                "path": "/lfrctthp/zzvnq/lznpqbrd",
+                "fileList": [
+                  {
+                    "name": "dpvcgj.wlw",
+                    "size": 157950
+                  },
+                  {
+                    "name": "dvlb.qvr",
+                    "size": 175412
+                  },
+                  {
+                    "name": "pmsjdj",
+                    "size": 84587
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "dvlb",
+                    "parentDirectory": "lznpqbrd",
+                    "path": "/lfrctthp/zzvnq/lznpqbrd/dvlb",
+                    "fileList": [
+                      {
+                        "name": "rwr.nbz",
+                        "size": 41223
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lfrctthp",
+                    "parentDirectory": "lznpqbrd",
+                    "path": "/lfrctthp/zzvnq/lznpqbrd/lfrctthp",
+                    "fileList": [
+                      {
+                        "name": "fqc.fnl",
+                        "size": 26056
+                      },
+                      {
+                        "name": "lgjlw.vql",
+                        "size": 28191
+                      },
+                      {
+                        "name": "wbs.vmh",
+                        "size": 262066
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "sppmmj",
+                        "parentDirectory": "lfrctthp",
+                        "path": "/lfrctthp/zzvnq/lznpqbrd/lfrctthp/sppmmj",
+                        "fileList": [
+                          {
+                            "name": "ccpnsjm.cwc",
+                            "size": 246742
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "pddfg",
+                "parentDirectory": "zzvnq",
+                "path": "/lfrctthp/zzvnq/pddfg",
+                "subDirectories": [
+                  {
+                    "name": "cwjbzd",
+                    "parentDirectory": "pddfg",
+                    "path": "/lfrctthp/zzvnq/pddfg/cwjbzd",
+                    "fileList": [
+                      {
+                        "name": "jpzb.dcw",
+                        "size": 197956
+                      }
+                    ]
+                  },
+                  {
+                    "name": "jbw",
+                    "parentDirectory": "pddfg",
+                    "path": "/lfrctthp/zzvnq/pddfg/jbw",
+                    "fileList": [
+                      {
+                        "name": "vsbvlr",
+                        "size": 247206
+                      }
+                    ]
+                  }
+                ],
+                "fileList": [
+                  {
+                    "name": "vsbvlr",
+                    "size": 147410
+                  }
+                ]
+              },
+              {
+                "name": "pvdz",
+                "parentDirectory": "zzvnq",
+                "path": "/lfrctthp/zzvnq/pvdz",
+                "subDirectories": [
+                  {
+                    "name": "jctpqbgw",
+                    "parentDirectory": "pvdz",
+                    "path": "/lfrctthp/zzvnq/pvdz/jctpqbgw",
+                    "fileList": [
+                      {
+                        "name": "qvm",
+                        "size": 190424
+                      }
+                    ]
+                  }
+                ],
+                "fileList": [
+                  {
+                    "name": "qwcgjttm.lzm",
+                    "size": 153177
+                  },
+                  {
+                    "name": "vsbvlr",
+                    "size": 94686
+                  }
+                ]
+              },
+              {
+                "name": "vnmhs",
+                "parentDirectory": "zzvnq",
+                "path": "/lfrctthp/zzvnq/vnmhs",
+                "fileList": [
+                  {
+                    "name": "sdhmzhlg.blf",
+                    "size": 16118
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "fileList": [
+          {
+            "name": "fclf",
+            "size": 65658
+          },
+          {
+            "name": "hhcp.jzd",
+            "size": 191985
+          },
+          {
+            "name": "smp",
+            "size": 185299
+          }
+        ]
+      },
+      {
+        "name": "ltwmz",
+        "parentDirectory": "/",
+        "path": "/ltwmz",
+        "fileList": [
+          {
+            "name": "bdmz",
+            "size": 243152
+          }
+        ]
+      },
+      {
+        "name": "nmzntmcf",
+        "parentDirectory": "/",
+        "path": "/nmzntmcf",
+        "subDirectories": [
+          {
+            "name": "jqcms",
+            "parentDirectory": "nmzntmcf",
+            "path": "/nmzntmcf/jqcms",
+            "fileList": [
+              {
+                "name": "ccpnsjm.cwc",
+                "size": 105562
+              },
+              {
+                "name": "chpr.zvl",
+                "size": 257512
+              },
+              {
+                "name": "tlhttrgs.thg",
+                "size": 117496
+              },
+              {
+                "name": "vsbvlr",
+                "size": 72550
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "cwjbzd",
+                "parentDirectory": "jqcms",
+                "path": "/nmzntmcf/jqcms/cwjbzd",
+                "subDirectories": [
+                  {
+                    "name": "mwvlhzdn",
+                    "parentDirectory": "cwjbzd",
+                    "path": "/nmzntmcf/jqcms/cwjbzd/mwvlhzdn",
+                    "fileList": [
+                      {
+                        "name": "dvlb.bbw",
+                        "size": 272658
+                      }
+                    ]
+                  },
+                  {
+                    "name": "qrpllg",
+                    "parentDirectory": "cwjbzd",
+                    "path": "/nmzntmcf/jqcms/cwjbzd/qrpllg",
+                    "fileList": [
+                      {
+                        "name": "wbs.vmh",
+                        "size": 215810
+                      }
+                    ]
+                  }
+                ],
+                "fileList": [
+                  {
+                    "name": "sppmmj.gcz",
+                    "size": 205638
+                  }
+                ]
+              },
+              {
+                "name": "jzqbnpn",
+                "parentDirectory": "jqcms",
+                "path": "/nmzntmcf/jqcms/jzqbnpn",
+                "fileList": [
+                  {
+                    "name": "sppmmj",
+                    "size": 112583
+                  }
+                ]
+              },
+              {
+                "name": "ssr",
+                "parentDirectory": "jqcms",
+                "path": "/nmzntmcf/jqcms/ssr",
+                "fileList": [
+                  {
+                    "name": "hpfpw.pvn",
+                    "size": 66781
+                  },
+                  {
+                    "name": "zhwplzd.wrq",
+                    "size": 138840
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "lrtsts",
+            "parentDirectory": "nmzntmcf",
+            "path": "/nmzntmcf/lrtsts",
+            "subDirectories": [
+              {
+                "name": "drtrdnsg",
+                "parentDirectory": "lrtsts",
+                "path": "/nmzntmcf/lrtsts/drtrdnsg",
+                "subDirectories": [
+                  {
+                    "name": "gnc",
+                    "parentDirectory": "drtrdnsg",
+                    "path": "/nmzntmcf/lrtsts/drtrdnsg/gnc",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 127922
+                      },
+                      {
+                        "name": "lfrctthp",
+                        "size": 233097
+                      },
+                      {
+                        "name": "qtglzq",
+                        "size": 24075
+                      }
+                    ]
+                  },
+                  {
+                    "name": "sppmmj",
+                    "parentDirectory": "drtrdnsg",
+                    "path": "/nmzntmcf/lrtsts/drtrdnsg/sppmmj",
+                    "fileList": [
+                      {
+                        "name": "czdm",
+                        "size": 128955
+                      },
+                      {
+                        "name": "jtjh.nzq",
+                        "size": 64809
+                      },
+                      {
+                        "name": "wbs.vmh",
+                        "size": 126095
+                      }
+                    ],
+                    "subDirectories": [
+                      {
+                        "name": "mdmh",
+                        "parentDirectory": "sppmmj",
+                        "path": "/nmzntmcf/lrtsts/drtrdnsg/sppmmj/mdmh",
+                        "subDirectories": [
+                          {
+                            "name": "zvtjfz",
+                            "parentDirectory": "mdmh",
+                            "path": "/nmzntmcf/lrtsts/drtrdnsg/sppmmj/mdmh/zvtjfz",
+                            "fileList": [
+                              {
+                                "name": "ptp.qbf",
+                                "size": 142470
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "nbzh",
+                        "parentDirectory": "sppmmj",
+                        "path": "/nmzntmcf/lrtsts/drtrdnsg/sppmmj/nbzh",
+                        "fileList": [
+                          {
+                            "name": "ccpnsjm.cwc",
+                            "size": 7112
+                          },
+                          {
+                            "name": "chrtbjf.fwr",
+                            "size": 215395
+                          },
+                          {
+                            "name": "wld.pdl",
+                            "size": 145865
+                          }
+                        ]
+                      },
+                      {
+                        "name": "wwhbgg",
+                        "parentDirectory": "sppmmj",
+                        "path": "/nmzntmcf/lrtsts/drtrdnsg/sppmmj/wwhbgg",
+                        "fileList": [
+                          {
+                            "name": "hhcp.jzd",
+                            "size": 51752
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "lfrctthp",
+                "parentDirectory": "lrtsts",
+                "path": "/nmzntmcf/lrtsts/lfrctthp",
+                "fileList": [
+                  {
+                    "name": "hhcp.jzd",
+                    "size": 198780
+                  }
+                ]
+              }
+            ],
+            "fileList": [
+              {
+                "name": "dvlb.fgt",
+                "size": 41195
+              }
+            ]
+          },
+          {
+            "name": "lvchpdf",
+            "parentDirectory": "nmzntmcf",
+            "path": "/nmzntmcf/lvchpdf",
+            "fileList": [
+              {
+                "name": "hhcp.jzd",
+                "size": 108580
+              },
+              {
+                "name": "jpjjhshl",
+                "size": 105301
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "njfmmj",
+                "parentDirectory": "lvchpdf",
+                "path": "/nmzntmcf/lvchpdf/njfmmj",
+                "subDirectories": [
+                  {
+                    "name": "bjsvdfrf",
+                    "parentDirectory": "njfmmj",
+                    "path": "/nmzntmcf/lvchpdf/njfmmj/bjsvdfrf",
+                    "fileList": [
+                      {
+                        "name": "vsbvlr",
+                        "size": 77668
+                      }
+                    ]
+                  },
+                  {
+                    "name": "gjgftj",
+                    "parentDirectory": "njfmmj",
+                    "path": "/nmzntmcf/lvchpdf/njfmmj/gjgftj",
+                    "subDirectories": [
+                      {
+                        "name": "mjbw",
+                        "parentDirectory": "gjgftj",
+                        "path": "/nmzntmcf/lvchpdf/njfmmj/gjgftj/mjbw",
+                        "fileList": [
+                          {
+                            "name": "ccpnsjm.cwc",
+                            "size": 243595
+                          }
+                        ]
+                      }
+                    ],
+                    "fileList": [
+                      {
+                        "name": "vsbvlr",
+                        "size": 56593
+                      }
+                    ]
+                  },
+                  {
+                    "name": "sppmmj",
+                    "parentDirectory": "njfmmj",
+                    "path": "/nmzntmcf/lvchpdf/njfmmj/sppmmj",
+                    "subDirectories": [
+                      {
+                        "name": "qzvwhr",
+                        "parentDirectory": "sppmmj",
+                        "path": "/nmzntmcf/lvchpdf/njfmmj/sppmmj/qzvwhr",
+                        "subDirectories": [
+                          {
+                            "name": "cwjbzd",
+                            "parentDirectory": "qzvwhr",
+                            "path": "/nmzntmcf/lvchpdf/njfmmj/sppmmj/qzvwhr/cwjbzd",
+                            "fileList": [
+                              {
+                                "name": "wbs.vmh",
+                                "size": 262825
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "fileList": [
+                  {
+                    "name": "twzprtcf.hgl",
+                    "size": 25879
+                  }
+                ]
+              },
+              {
+                "name": "nsw",
+                "parentDirectory": "lvchpdf",
+                "path": "/nmzntmcf/lvchpdf/nsw",
+                "fileList": [
+                  {
+                    "name": "rgqpq",
+                    "size": 210254
+                  }
+                ]
+              },
+              {
+                "name": "sppmmj",
+                "parentDirectory": "lvchpdf",
+                "path": "/nmzntmcf/lvchpdf/sppmmj",
+                "fileList": [
+                  {
+                    "name": "cwjbzd.dtt",
+                    "size": 55463
+                  },
+                  {
+                    "name": "dvlb",
+                    "size": 196779
+                  },
+                  {
+                    "name": "hgb.qmj",
+                    "size": 125377
+                  },
+                  {
+                    "name": "tspz",
+                    "size": 222280
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "rdd",
+                    "parentDirectory": "sppmmj",
+                    "path": "/nmzntmcf/lvchpdf/sppmmj/rdd",
+                    "fileList": [
+                      {
+                        "name": "srmsmr",
+                        "size": 20045
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tlhttrgs",
+                    "parentDirectory": "sppmmj",
+                    "path": "/nmzntmcf/lvchpdf/sppmmj/tlhttrgs",
+                    "fileList": [
+                      {
+                        "name": "wbs.vmh",
+                        "size": 47256
+                      }
+                    ]
+                  },
+                  {
+                    "name": "zbq",
+                    "parentDirectory": "sppmmj",
+                    "path": "/nmzntmcf/lvchpdf/sppmmj/zbq",
+                    "fileList": [
+                      {
+                        "name": "cwjbzd.vrm",
+                        "size": 223951
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "tlhttrgs",
+                "parentDirectory": "lvchpdf",
+                "path": "/nmzntmcf/lvchpdf/tlhttrgs",
+                "fileList": [
+                  {
+                    "name": "jvndrcmd.ftl",
+                    "size": 56808
+                  },
+                  {
+                    "name": "prh.wtz",
+                    "size": 220385
+                  },
+                  {
+                    "name": "pzbtlg.fzv",
+                    "size": 231575
+                  },
+                  {
+                    "name": "sqfr.lzs",
+                    "size": 11100
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "mjcmhg",
+                    "parentDirectory": "tlhttrgs",
+                    "path": "/nmzntmcf/lvchpdf/tlhttrgs/mjcmhg",
+                    "fileList": [
+                      {
+                        "name": "llsfnv.dmc",
+                        "size": 214188
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tlhttrgs",
+                    "parentDirectory": "tlhttrgs",
+                    "path": "/nmzntmcf/lvchpdf/tlhttrgs/tlhttrgs",
+                    "subDirectories": [
+                      {
+                        "name": "qtws",
+                        "parentDirectory": "tlhttrgs",
+                        "path": "/nmzntmcf/lvchpdf/tlhttrgs/tlhttrgs/qtws",
+                        "fileList": [
+                          {
+                            "name": "vjlwzbsg.whn",
+                            "size": 102462
+                          }
+                        ]
+                      },
+                      {
+                        "name": "sbhswjld",
+                        "parentDirectory": "tlhttrgs",
+                        "path": "/nmzntmcf/lvchpdf/tlhttrgs/tlhttrgs/sbhswjld",
+                        "fileList": [
+                          {
+                            "name": "dvlb.bqj",
+                            "size": 159193
+                          },
+                          {
+                            "name": "hhcp.jzd",
+                            "size": 17424
+                          },
+                          {
+                            "name": "pdwrmgs.lzq",
+                            "size": 28945
+                          },
+                          {
+                            "name": "rpbllgs.rzn",
+                            "size": 38201
+                          }
+                        ],
+                        "subDirectories": [
+                          {
+                            "name": "sppmmj",
+                            "parentDirectory": "sbhswjld",
+                            "path": "/nmzntmcf/lvchpdf/tlhttrgs/tlhttrgs/sbhswjld/sppmmj",
+                            "fileList": [
+                              {
+                                "name": "wbs.vmh",
+                                "size": 88100
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "tvsvr",
+                "parentDirectory": "lvchpdf",
+                "path": "/nmzntmcf/lvchpdf/tvsvr",
+                "fileList": [
+                  {
+                    "name": "tlhttrgs.mhw",
+                    "size": 237626
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "qpzqp",
+            "parentDirectory": "nmzntmcf",
+            "path": "/nmzntmcf/qpzqp",
+            "subDirectories": [
+              {
+                "name": "ddclns",
+                "parentDirectory": "qpzqp",
+                "path": "/nmzntmcf/qpzqp/ddclns",
+                "subDirectories": [
+                  {
+                    "name": "vprlq",
+                    "parentDirectory": "ddclns",
+                    "path": "/nmzntmcf/qpzqp/ddclns/vprlq",
+                    "fileList": [
+                      {
+                        "name": "ccpnsjm.cwc",
+                        "size": 137784
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fileList": [
+              {
+                "name": "lfrctthp",
+                "size": 134373
+              },
+              {
+                "name": "lstwpqbq.wln",
+                "size": 167788
+              },
+              {
+                "name": "qcplm",
+                "size": 224743
+              },
+              {
+                "name": "vzjj.bzm",
+                "size": 14385
+              },
+              {
+                "name": "wbs.vmh",
+                "size": 108204
+              }
+            ]
+          },
+          {
+            "name": "qrgh",
+            "parentDirectory": "nmzntmcf",
+            "path": "/nmzntmcf/qrgh",
+            "fileList": [
+              {
+                "name": "ccpnsjm.cwc",
+                "size": 29875
+              },
+              {
+                "name": "hhcp.jzd",
+                "size": 225323
+              },
+              {
+                "name": "tlhttrgs",
+                "size": 135470
+              },
+              {
+                "name": "vsbvlr",
+                "size": 23724
+              }
+            ]
+          },
+          {
+            "name": "scwnmrds",
+            "parentDirectory": "nmzntmcf",
+            "path": "/nmzntmcf/scwnmrds",
+            "subDirectories": [
+              {
+                "name": "sppmmj",
+                "parentDirectory": "scwnmrds",
+                "path": "/nmzntmcf/scwnmrds/sppmmj",
+                "subDirectories": [
+                  {
+                    "name": "sppmmj",
+                    "parentDirectory": "sppmmj",
+                    "path": "/nmzntmcf/scwnmrds/sppmmj/sppmmj",
+                    "fileList": [
+                      {
+                        "name": "blznf.smd",
+                        "size": 73173
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "vhj",
+        "parentDirectory": "/",
+        "path": "/vhj",
+        "fileList": [
+          {
+            "name": "cwjbzd.tvv",
+            "size": 221377
+          },
+          {
+            "name": "czdm",
+            "size": 98748
+          },
+          {
+            "name": "hhcp.jzd",
+            "size": 108605
+          },
+          {
+            "name": "lfrctthp.jfl",
+            "size": 11518
+          },
+          {
+            "name": "psnfcwpq.zcd",
+            "size": 89038
+          }
+        ],
+        "subDirectories": [
+          {
+            "name": "jnm",
+            "parentDirectory": "vhj",
+            "path": "/vhj/jnm",
+            "fileList": [
+              {
+                "name": "bfwm",
+                "size": 66785
+              },
+              {
+                "name": "dssh.rwn",
+                "size": 196636
+              },
+              {
+                "name": "tlhttrgs.jlh",
+                "size": 140177
+              },
+              {
+                "name": "vsbvlr",
+                "size": 199730
+              }
+            ],
+            "subDirectories": [
+              {
+                "name": "sppmmj",
+                "parentDirectory": "jnm",
+                "path": "/vhj/jnm/sppmmj",
+                "fileList": [
+                  {
+                    "name": "ccpnsjm.cwc",
+                    "size": 101586
+                  },
+                  {
+                    "name": "vsbvlr",
+                    "size": 127582
+                  },
+                  {
+                    "name": "zvrzs",
+                    "size": 71001
+                  }
+                ],
+                "subDirectories": [
+                  {
+                    "name": "lfrctthp",
+                    "parentDirectory": "sppmmj",
+                    "path": "/vhj/jnm/sppmmj/lfrctthp",
+                    "fileList": [
+                      {
+                        "name": "lfrctthp",
+                        "size": 122902
+                      },
+                      {
+                        "name": "svmpmrl.tcc",
+                        "size": 247157
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "lfrctthp",
+            "parentDirectory": "vhj",
+            "path": "/vhj/lfrctthp",
+            "fileList": [
+              {
+                "name": "cwjbzd.hbf",
+                "size": 104555
+              },
+              {
+                "name": "pldmc.hjd",
+                "size": 56298
+              },
+              {
+                "name": "sppmmj.nmr",
+                "size": 27639
+              }
+            ]
+          },
+          {
+            "name": "tlhttrgs",
+            "parentDirectory": "vhj",
+            "path": "/vhj/tlhttrgs",
+            "fileList": [
+              {
+                "name": "zsjgqqb",
+                "size": 252680
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
