@@ -31,51 +31,64 @@ type Vector = {
   y: number;
 };
 
-function runCommandList(commandList: Command[]) {
-  const headPosition = { x: 0, y: 0 };
-  const tailPosition = { x: 0, y: 0 };
-  const visitedPlaces = [`${tailPosition.x}|${tailPosition.y}`];
-  commandList.forEach((command) =>
-    applyCommand(command, visitedPlaces, headPosition, tailPosition)
-  );
+function runCommandList(commandList: Command[], knotCount = 2) {
+  const rope: Vector[] = [];
+
+  for (let i = 0; i < knotCount; i++) {
+    rope.push({
+      x: 0,
+      y: 0,
+    });
+  }
+
+  const visitedPlaces = ['0|0'];
+  commandList.forEach((command) => applyCommand(command, visitedPlaces, rope));
   return Array.from(new Set(visitedPlaces));
 }
 
 function applyCommand(
   command: Command,
   visitedPlaces: string[],
-  headPosition: Vector,
-  tailPosition: Vector
+  rope: Vector[]
 ) {
+  const head = 0;
+  const tail = rope.length - 1;
   for (let i = 0; i < command.steps; i++) {
     switch (command.direction) {
       case 'R':
-        headPosition.x++;
+        rope[head].x++;
         break;
       case 'L':
-        headPosition.x--;
+        rope[head].x--;
         break;
       case 'U':
-        headPosition.y++;
+        rope[head].y++;
         break;
       case 'D':
-        headPosition.y--;
+        rope[head].y--;
         break;
       default:
         throw `Unknown command ${command.direction}`;
     }
     // need to move tail?
-    if (headTailDistance(headPosition, tailPosition) >= 2) {
-      // move tail one step closer to tail
-      const directionVector = getHeadTailVector(headPosition, tailPosition);
-      tailPosition.x += directionVector.x;
-      tailPosition.y += directionVector.y;
+    for (let i = 1; i < rope.length; i++) {
+      const formerKnot = rope[i - 1];
+      const currentKnot = rope[i];
+      if (getDistance(formerKnot, currentKnot) >= 2) {
+        // move tail one step closer to tail
+        const directionVector = getDirectionalVector(formerKnot, currentKnot);
+        currentKnot.x += directionVector.x;
+        currentKnot.y += directionVector.y;
+      }
     }
-    visitedPlaces.push(`${tailPosition.x}|${tailPosition.y}`);
+    visitedPlaces.push(`${rope[tail].x}|${rope[tail].y}`);
   }
 }
 
-function getHeadTailVector(headPosition: Vector, tailPosition: Vector): Vector {
+function getDirectionalVector(
+  headPosition: Vector,
+  tailPosition: Vector
+): Vector {
   const deltaX = headPosition.x - tailPosition.x;
   const deltaY = headPosition.y - tailPosition.y;
   return {
@@ -84,7 +97,7 @@ function getHeadTailVector(headPosition: Vector, tailPosition: Vector): Vector {
   };
 }
 
-function headTailDistance(headPosition: Vector, tailPosition: Vector): number {
+function getDistance(headPosition: Vector, tailPosition: Vector): number {
   return Math.sqrt(
     (tailPosition.y - headPosition.y) ** 2 +
       (tailPosition.x - headPosition.x) ** 2
@@ -92,10 +105,15 @@ function headTailDistance(headPosition: Vector, tailPosition: Vector): number {
 }
 
 function part1() {
-  const commandList = getData('./2022/09/input.txt');
+  const commandList = getData('./2022/09/test-input.txt');
   const visitedPlaces = runCommandList(commandList);
-  // console.log(visitedPlaces);
   console.log(`number of visited places ${visitedPlaces.length}`);
 }
 
-part1();
+function part2() {
+  const commandList = getData('./2022/09/input.txt');
+  const visitedPlaces = runCommandList(commandList, 10);
+  console.log(`number of visited places ${visitedPlaces.length}`);
+}
+
+part2();
