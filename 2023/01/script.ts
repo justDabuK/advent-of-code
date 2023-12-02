@@ -1,27 +1,43 @@
 import {readFileSync} from "fs";
 
-function parseNumber(potentialNumber: string): number {
+function parseNumber(potentialNumber: string): number[] {
     switch (potentialNumber) {
         case 'one':
-            return 1;
+            return [1];
         case 'two':
-            return 2;
+            return [2];
         case 'three':
-            return 3;
+            return [3];
         case 'four':
-            return 4;
+            return [4];
         case 'five':
-            return 5;
+            return [5];
         case 'six':
-            return 6;
+            return [6];
         case 'seven':
-            return 7;
+            return [7];
         case 'eight':
-            return 8;
+            return [8];
         case 'nine':
-            return 9;
+            return [9];
+        case "twone":
+            return [2, 1]
+        case "eightwo":
+            return [8, 2]
+        case "eighthree":
+            return [8, 3]
+        case "oneight":
+            return [1, 8]
+        case "threeight":
+            return [3, 8]
+        case "fiveight":
+            return [5, 8]
+        case "nineight":
+            return [9, 8]
+        case "sevenine":
+            return [7, 9]
         default:
-            return parseInt(potentialNumber);
+            return [parseInt(potentialNumber)];
     }
 }
 
@@ -29,20 +45,21 @@ function getData(fileName: string): number[] {
     const file = readFileSync(fileName, 'utf-8');
 
     const numberListList: number[] = []
-    const debugTable: {line: string, numberList: string[], result: number}[] = [];
+    const debugTable: {line: string, matches: string[], numberList: number[], result: number}[] = [];
 
     file.split(/\r?\n/).forEach((line: string) => {
         const trimmedLine = line.trim();
         if (!trimmedLine) {
             console.log('reached the end');
         } else {
-            const extractNumberRegex = /(\d|one|two|three|four|five|six|seven|eight|nine)/g;
-            let numberList = trimmedLine.match(extractNumberRegex)
+            const extractNumberRegex = /(\d|twone|eightwo|eighthree|oneight|threeight|fiveight|nineight|sevenine|one|two|three|four|five|six|seven|eight|nine)/g;
+            let regExpMatchArray = trimmedLine.match(extractNumberRegex)
 
-            if(numberList) {
-                const result = parseInt(`${parseNumber(numberList[0])}${parseNumber(numberList[numberList.length - 1])}`)
+            if(regExpMatchArray) {
+                let numberList = regExpMatchArray.map(parseNumber).flat();
+                const result = parseInt(`${numberList[0]}${numberList[numberList.length - 1]}`)
                 numberListList.push(result);
-                debugTable.push({line: trimmedLine, numberList: numberList ? numberList : [], result});
+                //debugTable.push({line: trimmedLine, matches: regExpMatchArray ? regExpMatchArray : [], numberList, result});
             }
         }
     });
