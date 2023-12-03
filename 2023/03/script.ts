@@ -24,6 +24,7 @@ type Position = {
 
 type Symbol = Position & {
     symbol: string
+    adjacentNumbers?: number[]
 }
 
 function findSymbolPositions(schematic: string[][]): Symbol[] {
@@ -125,4 +126,46 @@ function part1() {
     console.log(sum);
 }
 
-part1();
+function findPotentialGears(schematic: string[][]): Symbol[] {
+    const gearSymbol = '*';
+    const symbolPositionList: Symbol[] = []
+
+    schematic.forEach((row, rowIndex) => {
+        row.forEach((potentialSymbol, columnIndex) => {
+            if (potentialSymbol === gearSymbol) {
+                symbolPositionList.push({ symbol: potentialSymbol, row: rowIndex, column: columnIndex });
+            }
+        });
+    });
+
+    return symbolPositionList;
+}
+
+function part2() {
+    const schematic = getData('./2023/03/input.txt');
+    const potentialGears = findPotentialGears(schematic);
+    const numberList = findNumbersViaRegex(schematic);
+
+    // filter for gears that have two adjacent numbers
+    const filteredGears = potentialGears.filter((gear) => {
+        const adjacentNumbers = numberList.filter((number) => {
+            return gear.row >= number.row - 1 &&
+                gear.row <= number.row + 1 &&
+                gear.column >= number.startColumn - 1 &&
+                gear.column <= number.endColumn + 1;
+        });
+        if(adjacentNumbers.length === 2) {
+            gear.adjacentNumbers = adjacentNumbers.map((number) => number.value);
+            return true;
+        } else {
+            return false;
+        }
+    });
+
+
+    const gearSum = filteredGears.map((gear) => gear.adjacentNumbers?.reduce((accumulator, currentValue) => accumulator * currentValue, 1) ?? 0).reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+    console.log(gearSum);
+
+}
+
+part2();
