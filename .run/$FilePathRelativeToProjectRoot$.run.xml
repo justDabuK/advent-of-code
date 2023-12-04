@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="$FilePathRelativeToProjectRoot$" type="NodeJSConfigurationType" path-to-node="wsl://Ubuntu@/home/kevin/.nvm/versions/node/v20.10.0/bin/node" nameIsGenerated="true" node-parameters="--require ts-node/register" path-to-js-file="$FilePathRelativeToProjectRoot$" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>
