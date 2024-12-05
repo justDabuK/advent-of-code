@@ -133,13 +133,7 @@ function part2() {
     const printerInstructions = getData('./input.txt');
     const sumOfMiddleSuccesses = printerInstructions.pagesUpdateList
         .filter((pageUpdate) => !isUpdateInRightOrder(printerInstructions.ruleIndex, pageUpdate))
-        .map((pageUpdate) => {
-            let fixedPageUpdate = [...pageUpdate];
-            while (!isUpdateInRightOrder(printerInstructions.ruleIndex, fixedPageUpdate)) {
-                fixedPageUpdate = fixUpdateOrder(printerInstructions.ruleIndex, fixedPageUpdate);
-            }
-            return fixedPageUpdate;
-        })
+        .map((pageUpdate) => fixUpdateOrder(printerInstructions.ruleIndex, pageUpdate))
         .map((pageUpdate) => pageUpdate[Math.floor(pageUpdate.length/2)])
         .reduce((acc, current) => acc + current, 0);
 
