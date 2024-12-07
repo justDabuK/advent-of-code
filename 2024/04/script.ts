@@ -30,6 +30,16 @@ function findXmas(characterMatrix: string[][], debug = false): number {
         'down-left': [1, -1],
         'down-right': [1, 1],
     }
+    const directionCounter = {
+        'up': 0,
+        'down': 0,
+        'left': 0,
+        'right': 0,
+        'up-left': 0,
+        'up-right': 0,
+        'down-left': 0,
+        'down-right': 0,
+    }
     characterMatrix.forEach((line: string[], row) => {
         line.forEach((character: string, column) => {
             if(debug) console.group(`row ${row} column ${column}`);
@@ -64,6 +74,7 @@ function findXmas(characterMatrix: string[][], debug = false): number {
                             if (characterMatrix[nextRow] && characterMatrix[nextRow][nextColumn] === 'S') {
                                 if(debug) console.log(`FOUND S at ${nextRow} x ${nextColumn}, xmas++`);
                                 xmasCounter++;
+                                directionCounter[direction]++;
                                 return;
                             }
                         }
@@ -75,12 +86,12 @@ function findXmas(characterMatrix: string[][], debug = false): number {
             if(debug) console.groupEnd();
         });
     });
+    console.table(directionCounter);
     return xmasCounter;
 }
 
 function part1() {
-    const characterMatrix = getData('input.txt');
-    console.table(characterMatrix);
+    const characterMatrix = getData('dominiks-input.txt');
     const xmasCounter = findXmas(characterMatrix);
     console.log("XMAS Counter: ", xmasCounter);
 
@@ -226,4 +237,4 @@ function part2() {
 
 }
 
-part2();
+part1();
