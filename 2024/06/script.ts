@@ -91,7 +91,7 @@ function followGuard(map: string[][])  {
 }
 
 function part1() {
-    const map = getData('./test-input.txt');
+    const map = getData('./dominiks-input.txt');
     const {guardPath} = followGuard(map)
     const guardPositions = new Set(guardPath.map(({position: [row, column]}) => `${row}-${column}`));
     console.log('number of guard positions: ', guardPositions.size)
