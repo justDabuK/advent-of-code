@@ -4,7 +4,7 @@
   "description": "My advent of code stuff",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",

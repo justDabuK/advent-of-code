@@ -23,6 +23,7 @@ function getData(fileName: string): number[][] {
     return numberListList;
 }
 
-function part1() {
-
+export function part1() {
+    console.log("I did something");
+    return 1;
 }
