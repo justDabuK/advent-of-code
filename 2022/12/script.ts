@@ -1,18 +1,18 @@
-import { readFileSync } from 'fs';
+import { readFileSync } from "fs";
 
-const START = 'S';
-const END = 'E';
+const START = "S";
+const END = "E";
 function getData(fileName: string): string[][] {
-  const file = readFileSync(fileName, 'utf-8');
+  const file = readFileSync(fileName, "utf-8");
 
   const heightMap: string[][] = [];
 
   file.split(/r?\n/).forEach((line: string) => {
     const trimmedLine = line.trim();
     if (!trimmedLine) {
-      console.log('reached the end');
+      console.log("reached the end");
     } else {
-      heightMap.push(trimmedLine.split(''));
+      heightMap.push(trimmedLine.split(""));
     }
   });
 
@@ -59,9 +59,9 @@ function createGraphMatrix(heightMap: string[][]) {
 
 function sanitizeStartAndEnd(height: string): string {
   if (height === START) {
-    return 'a';
+    return "a";
   } else if (height === END) {
-    return 'z';
+    return "z";
   } else {
     return height;
   }
@@ -72,7 +72,7 @@ function isReachable(currentHeight: string, targetHeight: string) {
   const sanitizedTargetHeight = sanitizeStartAndEnd(targetHeight);
 
   const reachableHeight = String.fromCharCode(
-    sanitizedCurrentHeight.charCodeAt(0) + 1
+    sanitizedCurrentHeight.charCodeAt(0) + 1,
   );
   return sanitizedTargetHeight <= reachableHeight;
 }
@@ -136,7 +136,7 @@ function getKnot(graphMatrix: GraphKnot[][], value: string): GraphKnot {
       }
     }
   }
-  throw 'There was no start knot you fool';
+  throw "There was no start knot you fool";
 }
 
 function getNodeWithMinCost(nodeQue: GraphKnot[]): GraphKnot {
@@ -155,7 +155,7 @@ function getNodeWithMinCost(nodeQue: GraphKnot[]): GraphKnot {
 
 function findShortestWayFromEndToStart(
   graphMatrix: GraphKnot[][],
-  startValue: string
+  startValue: string,
 ) {
   let currentKnot = getKnot(graphMatrix, END);
 
@@ -195,7 +195,7 @@ function calculateCost(graphMatrix: GraphKnot[][], startKnot: GraphKnot) {
 }
 
 function part1() {
-  const heightMap = getData('./2022/12/test-input.txt');
+  const heightMap = getData("./2022/12/test-input.txt");
   const graphMatrix = createGraphMatrix(heightMap);
   linkChildren(graphMatrix);
   calculateCost(graphMatrix, getKnot(graphMatrix, START));
@@ -205,14 +205,14 @@ function part1() {
 
 function resetCost(graphMatrix: GraphKnot[][]) {
   graphMatrix.forEach((nodeRow) =>
-    nodeRow.forEach((node) => (node.cost = Infinity))
+    nodeRow.forEach((node) => (node.cost = Infinity)),
   );
 }
 
 function findPossibleShortestASteps(graphMatrix: GraphKnot[][]) {
   const startNodes = graphMatrix
     .flat()
-    .filter((node) => node.value === 'a' || node.value === START);
+    .filter((node) => node.value === "a" || node.value === START);
 
   const shortestStepList = startNodes.map<number>((startNode) => {
     startNode.cost = 0;
@@ -225,7 +225,7 @@ function findPossibleShortestASteps(graphMatrix: GraphKnot[][]) {
 
     const shortestPath = findShortestWayFromEndToStart(
       graphMatrix,
-      startNode.value
+      startNode.value,
     );
 
     resetCost(graphMatrix);
@@ -237,7 +237,7 @@ function findPossibleShortestASteps(graphMatrix: GraphKnot[][]) {
 }
 
 function part2() {
-  const heightMap = getData('./2022/12/input.txt');
+  const heightMap = getData("./2022/12/input.txt");
   const graphMatrix = createGraphMatrix(heightMap);
   linkChildren(graphMatrix);
   const possibleShortestSteps = findPossibleShortestASteps(graphMatrix);

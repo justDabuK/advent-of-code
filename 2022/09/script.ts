@@ -1,18 +1,18 @@
-import { readFileSync } from 'fs';
+import { readFileSync } from "fs";
 
 type Command = {
   direction: string;
   steps: number;
 };
 function getData(fileName: string): Command[] {
-  const file = readFileSync(fileName, 'utf-8');
+  const file = readFileSync(fileName, "utf-8");
 
   const commandList: Command[] = [];
 
   file.split(/r?\n/).forEach((line: string) => {
     const trimmedLine = line.trim();
     if (!trimmedLine) {
-      console.log('reached the end');
+      console.log("reached the end");
     } else {
       const commandRegex = /(.) (\d+)/;
       const matchingResult = commandRegex.exec(trimmedLine)!;
@@ -41,7 +41,7 @@ function runCommandList(commandList: Command[], knotCount = 2) {
     });
   }
 
-  const visitedPlaces = ['0|0'];
+  const visitedPlaces = ["0|0"];
   commandList.forEach((command) => applyCommand(command, visitedPlaces, rope));
   return Array.from(new Set(visitedPlaces));
 }
@@ -49,22 +49,22 @@ function runCommandList(commandList: Command[], knotCount = 2) {
 function applyCommand(
   command: Command,
   visitedPlaces: string[],
-  rope: Vector[]
+  rope: Vector[],
 ) {
   const head = 0;
   const tail = rope.length - 1;
   for (let i = 0; i < command.steps; i++) {
     switch (command.direction) {
-      case 'R':
+      case "R":
         rope[head].x++;
         break;
-      case 'L':
+      case "L":
         rope[head].x--;
         break;
-      case 'U':
+      case "U":
         rope[head].y++;
         break;
-      case 'D':
+      case "D":
         rope[head].y--;
         break;
       default:
@@ -87,7 +87,7 @@ function applyCommand(
 
 function getDirectionalVector(
   headPosition: Vector,
-  tailPosition: Vector
+  tailPosition: Vector,
 ): Vector {
   const deltaX = headPosition.x - tailPosition.x;
   const deltaY = headPosition.y - tailPosition.y;
@@ -100,18 +100,18 @@ function getDirectionalVector(
 function getDistance(headPosition: Vector, tailPosition: Vector): number {
   return Math.sqrt(
     (tailPosition.y - headPosition.y) ** 2 +
-      (tailPosition.x - headPosition.x) ** 2
+      (tailPosition.x - headPosition.x) ** 2,
   );
 }
 
 function part1() {
-  const commandList = getData('./2022/09/test-input.txt');
+  const commandList = getData("./2022/09/test-input.txt");
   const visitedPlaces = runCommandList(commandList);
   console.log(`number of visited places ${visitedPlaces.length}`);
 }
 
 function part2() {
-  const commandList = getData('./2022/09/input.txt');
+  const commandList = getData("./2022/09/input.txt");
   const visitedPlaces = runCommandList(commandList, 10);
   console.log(`number of visited places ${visitedPlaces.length}`);
 }

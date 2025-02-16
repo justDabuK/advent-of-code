@@ -64,7 +64,7 @@ function part1() {
 function isInsideBoundaries(
   value: number,
   lowerBound: number,
-  upperBound: number
+  upperBound: number,
 ): boolean {
   return value >= lowerBound && value <= upperBound;
 }

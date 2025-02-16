@@ -73,10 +73,10 @@ function applyCommand(stackList: string[][], command: RearrangeCommand) {
 
 function applyAllCommands(
   supplies: Supplies,
-  commandConsumer: (stackList: string[][], command: RearrangeCommand) => void
+  commandConsumer: (stackList: string[][], command: RearrangeCommand) => void,
 ) {
   supplies.commands.forEach((command) =>
-    commandConsumer(supplies.stackList, command)
+    commandConsumer(supplies.stackList, command),
   );
 }
 
@@ -101,11 +101,11 @@ function part1() {
 function applyCommand9001(stackList: string[][], command: RearrangeCommand) {
   const sliceIndex = stackList[command.from - 1].length - command.amount;
   stackList[command.to - 1] = stackList[command.to - 1].concat(
-    stackList[command.from - 1].slice(sliceIndex)
+    stackList[command.from - 1].slice(sliceIndex),
   );
   stackList[command.from - 1] = stackList[command.from - 1].slice(
     0,
-    sliceIndex
+    sliceIndex,
   );
 }
 

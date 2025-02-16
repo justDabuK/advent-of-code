@@ -1,6 +1,6 @@
-import { readFileSync } from 'fs';
+import { readFileSync } from "fs";
 
-const NOOP = 'noop';
+const NOOP = "noop";
 
 type Instruction = {
   command: string;
@@ -8,14 +8,14 @@ type Instruction = {
 };
 
 function getData(fileName: string): Instruction[] {
-  const file = readFileSync(fileName, 'utf-8');
+  const file = readFileSync(fileName, "utf-8");
 
   const commandList: Instruction[] = [];
 
   file.split(/r?\n/).forEach((line: string) => {
     const trimmedLine = line.trim();
     if (!trimmedLine) {
-      console.log('reached the end');
+      console.log("reached the end");
     } else {
       if (trimmedLine.includes(NOOP)) {
         commandList.push({
@@ -50,7 +50,7 @@ function runInstructions(instructionList: Instruction[]): number {
       let interestingStrength = cycleCount * xRegister;
       interestingSignalStrengthSum += interestingStrength;
       console.log(
-        `${cycleCount} : interesting cycle ${cycleCount} current x ${xRegister} = ${interestingStrength} => ${interestingSignalStrengthSum}`
+        `${cycleCount} : interesting cycle ${cycleCount} current x ${xRegister} = ${interestingStrength} => ${interestingSignalStrengthSum}`,
       );
     }
 
@@ -64,7 +64,7 @@ function runInstructions(instructionList: Instruction[]): number {
         let interestingStrength = cycleCount * xRegister;
         interestingSignalStrengthSum += interestingStrength;
         console.log(
-          `${cycleCount} : interesting cycle ${cycleCount} current x ${xRegister} = ${interestingStrength} => ${interestingSignalStrengthSum}`
+          `${cycleCount} : interesting cycle ${cycleCount} current x ${xRegister} = ${interestingStrength} => ${interestingSignalStrengthSum}`,
         );
       }
       if (instruction.value) {
@@ -79,7 +79,7 @@ function runInstructions(instructionList: Instruction[]): number {
 }
 
 function part1() {
-  const instructionList = getData('./2022/10/input.txt');
+  const instructionList = getData("./2022/10/input.txt");
   const summedInterestingSignalStrengths = runInstructions(instructionList);
   console.log(summedInterestingSignalStrengths);
 }
@@ -91,18 +91,18 @@ function runScreenInstructions(instructionList: Instruction[]): void {
   let cycleCount = 0;
   let crt = -1;
 
-  let currentLine = '';
-  let pixel = '.';
+  let currentLine = "";
+  let pixel = ".";
 
   instructionList.forEach((instruction) => {
     cycleCount++;
     crt++;
-    pixel = crt >= lowerBound && crt <= upperBound ? '#' : '.';
+    pixel = crt >= lowerBound && crt <= upperBound ? "#" : ".";
     currentLine = currentLine.concat(pixel);
 
     if (currentLine.length === 40) {
       console.log(currentLine);
-      currentLine = '';
+      currentLine = "";
       crt = -1;
     }
     if (instruction.command == NOOP) {
@@ -111,11 +111,11 @@ function runScreenInstructions(instructionList: Instruction[]): void {
       // in the second cycle execute instruction
       cycleCount++;
       crt++;
-      pixel = crt >= lowerBound && crt <= upperBound ? '#' : '.';
+      pixel = crt >= lowerBound && crt <= upperBound ? "#" : ".";
       currentLine = currentLine.concat(pixel);
       if (currentLine.length === 40) {
         console.log(currentLine);
-        currentLine = '';
+        currentLine = "";
         crt = -1;
       }
 
@@ -131,7 +131,7 @@ function runScreenInstructions(instructionList: Instruction[]): void {
 }
 
 function part2() {
-  const instructionList = getData('./2022/10/input.txt');
+  const instructionList = getData("./2022/10/input.txt");
   runScreenInstructions(instructionList);
 }
 

@@ -33,7 +33,7 @@ function isStartOfPacket(potentialPacket: string[]): boolean {
 
 function findStartOfPacket(
   dataStream: string[],
-  distinctCharacterCount = 4
+  distinctCharacterCount = 4,
 ): number {
   const potentialPacket: string[] = [];
   for (let i = 0; i < dataStream.length; i++) {
@@ -57,7 +57,7 @@ function findStartOfPacket(
 function part1() {
   const dataStreamList = getData("./2022/06/test-input.txt");
   const startOfPacketList = dataStreamList.map((dataStream) =>
-    findStartOfPacket(dataStream)
+    findStartOfPacket(dataStream),
   );
   console.log(startOfPacketList);
 }
@@ -65,7 +65,7 @@ function part1() {
 function part2() {
   const dataStreamList = getData("./2022/06/input.txt");
   const startOfPacketList = dataStreamList.map((dataStream) =>
-    findStartOfPacket(dataStream, 14)
+    findStartOfPacket(dataStream, 14),
   );
   console.log(startOfPacketList);
 }

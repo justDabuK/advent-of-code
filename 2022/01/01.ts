@@ -10,7 +10,7 @@ function readFiles(fileName: string) {
     const trimmedLine = line.trim();
     if (!trimmedLine) {
       elfCaloryList.push(
-        newCaloryList.reduce((sum, current) => sum + current, 0)
+        newCaloryList.reduce((sum, current) => sum + current, 0),
       );
       newCaloryList = [];
     } else {

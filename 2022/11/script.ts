@@ -1,14 +1,14 @@
-import { readFileSync } from 'fs';
+import { readFileSync } from "fs";
 
-const MONKEY = 'Monkey';
-const STARTING = 'Starting';
-const OPERATION = 'Operation';
-const TEST = 'Test';
-const IF_TRUE = 'If true';
-const IF_FALSE = 'If false';
-const MULTIPLY = '*';
-const ADD = '+';
-const SELF = 'old';
+const MONKEY = "Monkey";
+const STARTING = "Starting";
+const OPERATION = "Operation";
+const TEST = "Test";
+const IF_TRUE = "If true";
+const IF_FALSE = "If false";
+const MULTIPLY = "*";
+const ADD = "+";
+const SELF = "old";
 const PLAY_ROUNDS = 20;
 
 type Monkey = {
@@ -26,7 +26,7 @@ type TestData = {
 };
 
 function getData(fileName: string): Monkey[] {
-  const file = readFileSync(fileName, 'utf-8');
+  const file = readFileSync(fileName, "utf-8");
 
   const monkeyList: Monkey[] = [];
   let currentMonkey: Monkey;
@@ -35,7 +35,7 @@ function getData(fileName: string): Monkey[] {
   file.split(/r?\n/).forEach((line: string) => {
     const trimmedLine = line.trim();
     if (!trimmedLine) {
-      console.log('in between monkeys, will attach current one');
+      console.log("in between monkeys, will attach current one");
       monkeyList.push(currentMonkey);
     } else {
       if (trimmedLine.includes(MONKEY)) {
@@ -50,7 +50,7 @@ function getData(fileName: string): Monkey[] {
         const itemRegex = /(\d+, )*(\d+)/;
         const matches = itemRegex.exec(trimmedLine)!;
         const numberList = matches[0]
-          .split(', ')
+          .split(", ")
           .map((number) => parseInt(number));
 
         currentMonkey.itemWorryLevels = numberList;
@@ -136,14 +136,14 @@ function letMonkeysPlayPart1(monkeyList: Monkey[]) {
         .map(relieveOperation);
       // decide where to throw which item
       const throwToMonkeyList = currentMonkey.itemWorryLevels.map(
-        currentMonkey.throwToWhom
+        currentMonkey.throwToWhom,
       );
 
       // throw them to the specific monkeys
       throwToMonkeyList.forEach((receivingMonkey: number) =>
         monkeyList[receivingMonkey].itemWorryLevels.push(
-          currentMonkey.itemWorryLevels.shift()!
-        )
+          currentMonkey.itemWorryLevels.shift()!,
+        ),
       );
     }
   }
@@ -151,13 +151,13 @@ function letMonkeysPlayPart1(monkeyList: Monkey[]) {
 
 function printMonkeyBusiness(monkeyList: Monkey[]) {
   const monkeyItemInteractionList = monkeyList.map(
-    (monkey) => monkey.numberOfInspectedItems
+    (monkey) => monkey.numberOfInspectedItems,
   );
   const highestMonkey = Math.max(...monkeyItemInteractionList);
   // pop highest and repeat for second highest
   monkeyItemInteractionList.splice(
     monkeyItemInteractionList.indexOf(highestMonkey),
-    1
+    1,
   );
   const secondHighest = Math.max(...monkeyItemInteractionList);
   const monkeyBusiness = highestMonkey * secondHighest;
@@ -165,7 +165,7 @@ function printMonkeyBusiness(monkeyList: Monkey[]) {
 }
 
 function part1() {
-  const monkeyList = getData('./2022/11/input.txt');
+  const monkeyList = getData("./2022/11/input.txt");
   letMonkeysPlayPart1(monkeyList);
   printMonkeyBusiness(monkeyList);
 }
@@ -191,7 +191,7 @@ function getLeastCommonMultiple(numbersOfInterest: number[]): number {
 
 function letMonkeysPlayPart2(monkeyList: Monkey[]) {
   const leastCommonMultiple = getLeastCommonMultiple(
-    monkeyList.map((monkey) => monkey.divisor)
+    monkeyList.map((monkey) => monkey.divisor),
   );
 
   for (let round = 0; round < 10000; round++) {
@@ -206,18 +206,18 @@ function letMonkeysPlayPart2(monkeyList: Monkey[]) {
       currentMonkey.itemWorryLevels = currentMonkey.itemWorryLevels
         .map(currentMonkey.worryOperation)
         .map((worryLevel) =>
-          relieveOperationPart2(worryLevel, leastCommonMultiple)
+          relieveOperationPart2(worryLevel, leastCommonMultiple),
         );
       // decide where to throw which item
       const throwToMonkeyList = currentMonkey.itemWorryLevels.map(
-        currentMonkey.throwToWhom
+        currentMonkey.throwToWhom,
       );
 
       // throw them to the specific monkeys
       throwToMonkeyList.forEach((receivingMonkey: number) =>
         monkeyList[receivingMonkey].itemWorryLevels.push(
-          currentMonkey.itemWorryLevels.shift()!
-        )
+          currentMonkey.itemWorryLevels.shift()!,
+        ),
       );
     }
 
@@ -229,16 +229,16 @@ function letMonkeysPlayPart2(monkeyList: Monkey[]) {
       console.log(`=== After round ${round} ===`);
       monkeyList.forEach((monkey, index) => {
         console.log(
-          `Monkey ${index} inspected ${monkey.numberOfInspectedItems} times`
+          `Monkey ${index} inspected ${monkey.numberOfInspectedItems} times`,
         );
       });
-      console.log('');
+      console.log("");
     }
   }
 }
 
 function part2() {
-  const monkeyList = getData('./2022/11/input.txt');
+  const monkeyList = getData("./2022/11/input.txt");
   letMonkeysPlayPart2(monkeyList);
   printMonkeyBusiness(monkeyList);
 }

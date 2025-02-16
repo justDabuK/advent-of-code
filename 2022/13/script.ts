@@ -1,4 +1,4 @@
-import { readFileSync } from 'fs';
+import { readFileSync } from "fs";
 
 type PacketPair = {
   leftSide: any[];
@@ -6,7 +6,7 @@ type PacketPair = {
 };
 
 function getData(fileName: string): PacketPair[] {
-  const file = readFileSync(fileName, 'utf-8');
+  const file = readFileSync(fileName, "utf-8");
 
   const pairList: PacketPair[] = [];
 
@@ -20,7 +20,7 @@ function getData(fileName: string): PacketPair[] {
   file.split(/r?\n/).forEach((line: string) => {
     const trimmedLine = line.trim();
     if (!trimmedLine) {
-      console.log('reached the end');
+      console.log("reached the end");
       leftSideWritten = false;
       pairList.push(currentPair);
       currentPair = {
@@ -102,7 +102,7 @@ function getOrderedSum(pairList: PacketPair[]) {
 }
 
 function part1() {
-  const pairList = getData('./2022/13/input.txt');
+  const pairList = getData("./2022/13/input.txt");
   const sum = getOrderedSum(pairList);
   console.log(`sum of correct indices = ${sum}`);
 }
@@ -128,7 +128,7 @@ function getDecoderKey(packetList: any[][]) {
 }
 
 function part2() {
-  const pairList = getData('./2022/13/input.txt');
+  const pairList = getData("./2022/13/input.txt");
   const packetList = pairList.flatMap((pair) => [
     pair.leftSide,
     pair.rightSide,

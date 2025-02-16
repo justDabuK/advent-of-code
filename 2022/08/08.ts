@@ -11,7 +11,7 @@ function getData(fileName: string): number[][] {
       console.log("reached the end");
     } else {
       treeHeightMatrix.push(
-        trimmedLine.split("").map((height) => parseInt(height))
+        trimmedLine.split("").map((height) => parseInt(height)),
       );
     }
   });
@@ -22,7 +22,7 @@ function getData(fileName: string): number[][] {
 function isVisibleFromTop(
   treeMatrix: number[][],
   row: number,
-  col: number
+  col: number,
 ): boolean {
   const currentTreeHeight = treeMatrix[row][col];
   let maximumHeightFromTop = 0;
@@ -38,7 +38,7 @@ function isVisibleFromTop(
 function isVisibleFromRight(
   treeMatrix: number[][],
   row: number,
-  col: number
+  col: number,
 ): boolean {
   const currentTreeHeight = treeMatrix[row][col];
   const maxColumn = treeMatrix[row].length;
@@ -56,7 +56,7 @@ function isVisibleFromRight(
 function isVisibleFromBottom(
   treeMatrix: number[][],
   row: number,
-  col: number
+  col: number,
 ): boolean {
   const currentTreeHeight = treeMatrix[row][col];
   const maxRow = treeMatrix.length;
@@ -74,7 +74,7 @@ function isVisibleFromBottom(
 function isVisibleFromLeft(
   treeMatrix: number[][],
   row: number,
-  col: number
+  col: number,
 ): boolean {
   const currentTreeHeight = treeMatrix[row][col];
 
@@ -123,7 +123,7 @@ function getVisibleTreeCount(treeMatrix: number[][]): number {
 function getVisibleTreeCountFromTop(
   treeMatrix: number[][],
   row: number,
-  col: number
+  col: number,
 ): number {
   if (row === 0) {
     return 0;
@@ -145,7 +145,7 @@ function getVisibleTreeCountFromTop(
 function getVisibleTreeCountFromRight(
   treeMatrix: number[][],
   row: number,
-  col: number
+  col: number,
 ): number {
   const maxColumn = treeMatrix[row].length;
   if (col === maxColumn - 1) {
@@ -168,7 +168,7 @@ function getVisibleTreeCountFromRight(
 function getVisibleTreeCountFromBottom(
   treeMatrix: number[][],
   row: number,
-  col: number
+  col: number,
 ): number {
   const maxRow = treeMatrix.length;
   if (row === maxRow - 1) {
@@ -191,7 +191,7 @@ function getVisibleTreeCountFromBottom(
 function getVisibleTreeCountFromLeft(
   treeMatrix: number[][],
   row: number,
-  col: number
+  col: number,
 ): number {
   if (col === 0) {
     return 0;
@@ -221,12 +221,12 @@ function createScenicScoreMatrix(treeMatrix: number[][]): number[][] {
       const treesSeenOnRight = getVisibleTreeCountFromRight(
         treeMatrix,
         row,
-        col
+        col,
       );
       const treesSeenOnBottom = getVisibleTreeCountFromBottom(
         treeMatrix,
         row,
-        col
+        col,
       );
       const treesSeenOnLeft = getVisibleTreeCountFromLeft(treeMatrix, row, col);
       const scenicScore =
@@ -249,7 +249,7 @@ function part2() {
   const treeHeightMatrix = getData("./2022/08/input.txt");
   const scoreMatrix = createScenicScoreMatrix(treeHeightMatrix);
   const highestScorePerRowList = scoreMatrix.map((scoreRow) =>
-    Math.max(...scoreRow)
+    Math.max(...scoreRow),
   );
   const highestScore = Math.max(...highestScorePerRowList);
 

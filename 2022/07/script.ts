@@ -35,7 +35,7 @@ function changeDirectoryToParent(tree: DirectoryTree, path: string): Directory {
 
 function getDirectoryByDirList(
   directory: Directory,
-  dirList: string[]
+  dirList: string[],
 ): Directory {
   if (dirList.length === 0) {
     return directory;
@@ -45,7 +45,7 @@ function getDirectoryByDirList(
     }
 
     const potentialDirectory = directory.subDirectories.find(
-      (subDir) => subDir.name === dirList[0]
+      (subDir) => subDir.name === dirList[0],
     );
     if (!potentialDirectory) {
       throw "WHY is there no potentialDirectory";
@@ -57,7 +57,7 @@ function getDirectoryByDirList(
     }
 
     const potentialDirectory = directory.subDirectories.find(
-      (subDir) => subDir.name === dirList[0]
+      (subDir) => subDir.name === dirList[0],
     );
     if (!potentialDirectory) {
       throw "WHY is there no potentialDirectory";
@@ -69,14 +69,14 @@ function getDirectoryByDirList(
 
 function changeDirectoryToChild(
   currentDirectory: Directory,
-  wantedDirectoryName: string
+  wantedDirectoryName: string,
 ): Directory {
   if (!currentDirectory.subDirectories) {
     throw "Directory has no children, why do you try to find some";
   }
 
   const potentialChild = currentDirectory.subDirectories.find(
-    (subDir) => subDir.name === wantedDirectoryName
+    (subDir) => subDir.name === wantedDirectoryName,
   );
   if (!potentialChild) {
     throw `No child with name ${wantedDirectoryName} found in ${currentDirectory}`;
@@ -96,7 +96,7 @@ function appendDirectory(directory: Directory, childDirectoryName: string) {
   } else {
     // check if directory already exists
     const subDirNameList: string[] = directory.subDirectories.map<string>(
-      (subDir) => subDir.name
+      (subDir) => subDir.name,
     );
     if (!subDirNameList.includes(childDirectoryName)) {
       directory.subDirectories.push(childDirectory);
@@ -149,14 +149,14 @@ function getData(fileName: string): DirectoryTree {
           if (wantedDirectory === "..") {
             currentDirectory = changeDirectoryToParent(
               directoryTree,
-              currentDirectory.path
+              currentDirectory.path,
             );
           } else if (wantedDirectory === "/") {
             currentDirectory = directoryTree.root;
           } else {
             currentDirectory = changeDirectoryToChild(
               currentDirectory,
-              wantedDirectory
+              wantedDirectory,
             );
           }
         } else if (trimmedLine.includes("ls")) {
@@ -204,12 +204,12 @@ function getDirectorySizes(tree: DirectoryTree): SizeMap {
 
 function calculateSizeRegisterAndReturn(
   sizeMap: SizeMap,
-  directory: Directory
+  directory: Directory,
 ): number {
   let size = 0;
   if (directory.subDirectories) {
     directory.subDirectories.forEach(
-      (subDir) => (size += calculateSizeRegisterAndReturn(sizeMap, subDir))
+      (subDir) => (size += calculateSizeRegisterAndReturn(sizeMap, subDir)),
     );
   }
 
@@ -244,13 +244,13 @@ function part2() {
   const minimumDeletedSpace = necessaryFreeSpace - unusedSpace;
   console.log(`minimum deleted space ${minimumDeletedSpace}`);
   const filteredMap = sizeMap.filter(
-    (entry) => entry.size >= minimumDeletedSpace
+    (entry) => entry.size >= minimumDeletedSpace,
   );
   const toDeleteDirectory = filteredMap.reduce((prev, curr) =>
-    prev.size < curr.size ? prev : curr
+    prev.size < curr.size ? prev : curr,
   );
   console.log(
-    `would delete ${toDeleteDirectory.directoryPath} with ${toDeleteDirectory.size}`
+    `would delete ${toDeleteDirectory.directoryPath} with ${toDeleteDirectory.size}`,
   );
 }
 

@@ -28,12 +28,12 @@ function splitIntoCompartments(rucksack: Rucksack): string[][] {
 
 function findCommonType(
   firstCompartment: string[],
-  secondCompartment: string[]
+  secondCompartment: string[],
 ): string {
   let secondCompartmentString = secondCompartment.join("");
   return (
     firstCompartment.find((itemType) =>
-      secondCompartmentString.includes(itemType)
+      secondCompartmentString.includes(itemType),
     ) ?? ""
   );
 }
@@ -115,7 +115,7 @@ function part1(rucksackList: Rucksack[]) {
   const commonPriorityList = mapToPriority(commonTypeList);
   const summedUpPriority = commonPriorityList.reduce(
     (sum, currentValue) => (sum += currentValue),
-    0
+    0,
   );
   console.log(`summed up priority: ${summedUpPriority}`);
 }
@@ -143,7 +143,7 @@ function mapGroupToCommonType(group: Rucksack[]): string {
   return (
     firstRucksack.find(
       (itemType) =>
-        secondRucksack.includes(itemType) && thirdRucksack.includes(itemType)
+        secondRucksack.includes(itemType) && thirdRucksack.includes(itemType),
     ) ?? ""
   );
 }
@@ -154,7 +154,7 @@ function part2(rucksackList: Rucksack[]) {
   const priorityList = commonTypeList.map(getPriority);
   const summedPriority = priorityList.reduce(
     (sum, currentValue) => sum + currentValue,
-    0
+    0,
   );
   console.log(`part 2 priority: ${summedPriority}`);
 }
