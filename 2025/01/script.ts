@@ -57,4 +57,33 @@ function part1() {
   console.groupEnd();
 }
 
-part1();
+function part2() {
+  console.group("Part 1");
+  const instructionList = getData("./input.txt");
+
+  let dialState = 50; // dial starts at 50
+  let zeroPositionCount = 0;
+  for (const instruction of instructionList) {
+    for (let _ = 0; _ < instruction.steps; _++) {
+      if (instruction.direction === "L") {
+        dialState -= 1;
+      } else {
+        dialState += 1;
+      }
+      if (dialState < 0) {
+        dialState += 100;
+      }
+      if (dialState > 99) {
+        dialState %= 100;
+      }
+      if (dialState === 0) {
+        zeroPositionCount++;
+      }
+    }
+  }
+
+  console.log("zero position count: ", zeroPositionCount);
+  console.groupEnd();
+}
+
+part2();
