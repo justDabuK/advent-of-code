@@ -1,4 +1,4 @@
-import { writeFileSync, readFileSync } from "fs";
+import { readFileSync } from "fs";
 
 type IdRange = {
   start: number;
@@ -113,10 +113,11 @@ function isInvalidIdEnhanced(id: number) {
 function part2() {
   console.group("Part 2");
   const idRangeList = getData("./input.txt");
+
   const invalidIds: number[] = idRangeList.reduce<number[]>(
     (list, currentRange) => {
       const tempList: number[] = [];
-      for (let id = currentRange.start; id <= currentRange.end + 1; id++) {
+      for (let id = currentRange.start; id <= currentRange.end; id++) {
         if (isInvalidIdEnhanced(id)) {
           tempList.push(id);
         }
@@ -125,11 +126,14 @@ function part2() {
     },
     [],
   );
+
   console.log("Invalid IDs:", invalidIds);
   console.log("# of Invalid IDs:", invalidIds.length);
+  const uniqueInvalidIds = Array.from(new Set(invalidIds));
+  console.log("# of unique Invalid IDs:", uniqueInvalidIds.length);
   console.log(
-    "Invalid ID sum:",
-    invalidIds.reduce((a, b) => a + b, 0),
+    "unique Invalid ID sum:",
+    uniqueInvalidIds.reduce((a, b) => a + b, 0),
   );
   console.groupEnd();
 }
